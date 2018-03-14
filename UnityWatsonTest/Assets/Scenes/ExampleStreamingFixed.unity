@@ -113,46 +113,73 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &249853924
+--- !u!1 &182595664
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 249853926}
-  - component: {fileID: 249853925}
+  - component: {fileID: 182595666}
+  - component: {fileID: 182595665}
   m_Layer: 0
-  m_Name: ExampleStreamingSplitSamples
+  m_Name: ExampleStreaming4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &249853925
+  m_IsActive: 1
+--- !u!114 &182595665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 249853924}
+  m_GameObject: {fileID: 182595664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f827eb7b6004438d9b3ae3bb063c1a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2237c420469674b9ca78dc91f0ffea0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ResultsField: {fileID: 0}
---- !u!4 &249853926
+  CactusField: {fileID: 0}
+  emotion_threshold: 0
+  sphereMeshRenderer: {fileID: 0}
+  cubeMeshRenderer: {fileID: 0}
+  bar1JoyRenderer: {fileID: 0}
+  bar2SadnessRenderer: {fileID: 0}
+  bar3FearRenderer: {fileID: 0}
+  bar4DisgustRenderer: {fileID: 0}
+  bar5AngerRenderer: {fileID: 0}
+  DroidRenderer: {fileID: 0}
+  sphere_emo_joyRenderer: {fileID: 0}
+  sphere_emo_angerRenderer: {fileID: 0}
+  sphere_emo_fearRenderer: {fileID: 0}
+  sphere_emo_disgustRenderer: {fileID: 0}
+  sphere_emo_sadnessRenderer: {fileID: 0}
+  TinManRenderer: {fileID: 0}
+  TinManHelmet: {fileID: 0}
+  cyl1AnalyticalRenderer: {fileID: 0}
+  cyl2ConfidentRenderer: {fileID: 0}
+  cyl3TentativeRenderer: {fileID: 0}
+  original_material: {fileID: 0}
+  red_material: {fileID: 0}
+  blue_material: {fileID: 0}
+  yellow_material: {fileID: 0}
+  green_material: {fileID: 0}
+  purple_material: {fileID: 0}
+  white_material: {fileID: 0}
+--- !u!4 &182595666
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 249853924}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 182595664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278297820
 GameObject:
@@ -241,7 +268,7 @@ RectTransform:
   m_Children:
   - {fileID: 1863902090}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -462,48 +489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1646685149
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1646685151}
-  - component: {fileID: 1646685150}
-  m_Layer: 0
-  m_Name: ExampleStreaming
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1646685150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646685149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c5299c1c838a8c44b49ecc9254704e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ResultsField: {fileID: 1863902092}
---- !u!4 &1646685151
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1646685149}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1863902089
 GameObject:

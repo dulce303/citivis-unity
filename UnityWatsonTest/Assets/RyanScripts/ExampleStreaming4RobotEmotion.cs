@@ -18,6 +18,7 @@
 */
 
 using UnityEngine;
+
 using System.Collections;
 using IBM.Watson.DeveloperCloud.Logging;
 using IBM.Watson.DeveloperCloud.Services.SpeechToText.v1;
@@ -35,7 +36,7 @@ using System.Text.RegularExpressions;
 
 // and for Ethan's body
 using UnityStandardAssets;
-using UnityStandardAssets.Characters.ThirdPerson;
+//using UnityStandardAssets.Characters.ThirdPerson;
 
 
 public class ExampleStreaming4RobotEmotion : MonoBehaviour
