@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Watson/Examples/ServiceExamples/ExampleStreaming.unity
+- path: Assets/Scenes/AvatarScriptedScene.unity
   isLoaded: 1
   isActive: 1

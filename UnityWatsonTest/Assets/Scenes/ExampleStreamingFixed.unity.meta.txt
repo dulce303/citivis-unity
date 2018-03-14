@@ -1,7 +1,0 @@
-fileFormatVersion: 2
-guid: 743cf1493452740eca65cd2c869bf3ea
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
