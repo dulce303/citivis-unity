@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/TimedObjectDestructor.cs">
+    <Files>
+      <File FileName="Assets/RyanScripts/ExampleStreaming0.cs" Line="25" Column="22" />
+      <File FileName="Assets/RyanScripts/ExampleStreaming1.cs" Line="28" Column="1" />
+      <File FileName="Assets/RyanScripts/ExampleStreaming2.cs" Line="37" Column="31" />
+      <File FileName="Assets/RyanScripts/ExampleStreaming3RobotEmotion.cs" Line="42" Column="43" />
+      <File FileName="Assets/RyanScripts/ExampleStreaming4RobotEmotion.cs" Line="37" Column="26" />
+      <File FileName="Assets/RyanScripts/apples.cs" Line="8" Column="1" />
+      <File FileName="Assets/Standard Assets/Utility/TimedObjectDestructor.cs" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Unity.PackageManagerUI.Editor PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>
