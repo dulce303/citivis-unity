@@ -1,0 +1,100 @@
+newmtl CityEngineMaterial_4
+illum 3
+Ka 0 0 0
+Kd 0.611765 0.356863 0.192157
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_5
+illum 3
+Ka 0 0 0
+Kd 0.952941 0.960784 0.87451
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_9
+illum 3
+Ka 0 0 0
+Kd 0.392157 0.415686 0.376471
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_7
+illum 3
+Ka 0 0 0
+Kd 0.878431 0.839216 0.792157
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_6
+illum 3
+Ka 0 0 0
+Kd 0.0666667 0.0941176 0.117647
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_1
+illum 3
+Ka 0 0 0
+Kd 0.345098 0.337255 0.278431
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial
+illum 3
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_8
+illum 3
+Ka 0 0 0
+Kd 0.972549 0.952941 0.866667
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_3
+illum 3
+Ka 0 0 0
+Kd 0.952941 0.952941 0.858824
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
+newmtl CityEngineMaterial_2
+illum 3
+Ka 0 0 0
+Kd 0.92549 0.933333 0.839216
+Ks 0 0 0
+Ns 0
+d 1
+Tf 1.0 1.0 1.0
+Ni 1.0
+
