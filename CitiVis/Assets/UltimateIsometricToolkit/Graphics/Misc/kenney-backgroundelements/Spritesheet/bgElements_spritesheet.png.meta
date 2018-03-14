@@ -1,0 +1,2622 @@
+fileFormatVersion: 2
+guid: b7e365b98824def499cf81b7fe6dcd7b
+timeCreated: 1479571152
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: castle.png
+    21300002: castle_beige.png
+    21300004: castle_grey.png
+    21300006: castle_wall.png
+    21300008: castle_wall.png
+    21300010: cloud1.png
+    21300012: cloud1.png
+    21300014: cloud2.png
+    21300016: cloud2.png
+    21300018: cloud3.png
+    21300020: cloud3.png
+    21300022: cloud4.png
+    21300024: cloud4.png
+    21300026: cloud5.png
+    21300028: cloud5.png
+    21300030: cloud6.png
+    21300032: cloud6.png
+    21300034: cloud7.png
+    21300036: cloud7.png
+    21300038: cloud8.png
+    21300040: cloud8.png
+    21300042: cloud9.png
+    21300044: cloud9.png
+    21300046: clouds1.png
+    21300048: clouds2.png
+    21300050: fence.png
+    21300052: fence.png
+    21300054: fence_piece.png
+    21300056: fence_piece.png
+    21300058: grass1.png
+    21300060: grass1.png
+    21300062: grass2.png
+    21300064: grass2.png
+    21300066: grass3.png
+    21300068: grass4.png
+    21300070: grass5.png
+    21300072: grass6.png
+    21300074: hills1.png
+    21300076: hills2.png
+    21300078: house_beige_front.png
+    21300080: house_beige_side.png
+    21300082: house_front_short.png
+    21300084: house_front_tall.png
+    21300086: house_grey_front.png
+    21300088: house_grey_side.png
+    21300090: house_side_short.png
+    21300092: house_side_tall.png
+    21300094: moon_full.png
+    21300096: moon_half.png
+    21300098: mountain1.png
+    21300100: mountain2.png
+    21300102: mountain3.png
+    21300104: piramid.png
+    21300106: piramid.png
+    21300108: pointy_mountains.png
+    21300110: sun.png
+    21300112: temple.png
+    21300114: temple.png
+    21300116: tower.png
+    21300118: tower_beige.png
+    21300120: tower_grey.png
+    21300122: tree01.png
+    21300124: tree01.png
+    21300126: tree02.png
+    21300128: tree02.png
+    21300130: tree03.png
+    21300132: tree03.png
+    21300134: tree04.png
+    21300136: tree04.png
+    21300138: tree05.png
+    21300140: tree05.png
+    21300142: tree06.png
+    21300144: tree06.png
+    21300146: tree07.png
+    21300148: tree07.png
+    21300150: tree08.png
+    21300152: tree08.png
+    21300154: tree09.png
+    21300156: tree09.png
+    21300158: tree10.png
+    21300160: tree10.png
+    21300162: tree11.png
+    21300164: tree11.png
+    21300166: tree12.png
+    21300168: tree12.png
+    21300170: tree13.png
+    21300172: tree13.png
+    21300174: tree14.png
+    21300176: tree15.png
+    21300178: tree16.png
+    21300180: tree17.png
+    21300182: tree18.png
+    21300184: tree19.png
+    21300186: tree20.png
+    21300188: tree21.png
+    21300190: tree22.png
+    21300192: tree23.png
+    21300194: tree24.png
+    21300196: tree25.png
+    21300198: tree26.png
+    21300200: tree27.png
+    21300202: tree28.png
+    21300204: tree29.png
+    21300206: tree30.png
+    21300208: tree31.png
+    21300210: tree32.png
+    21300212: tree33.png
+    21300214: tree34.png
+    21300216: tree35.png
+    21300218: castle
+    21300220: castle_beige
+    21300222: castle_grey
+    21300224: castle_wall
+    21300226: castle_wall
+    21300228: cloud1
+    21300230: cloud1
+    21300232: cloud2
+    21300234: cloud2
+    21300236: cloud3
+    21300238: cloud3
+    21300240: cloud4
+    21300242: cloud4
+    21300244: cloud5
+    21300246: cloud5
+    21300248: cloud6
+    21300250: cloud6
+    21300252: cloud7
+    21300254: cloud7
+    21300256: cloud8
+    21300258: cloud8
+    21300260: cloud9
+    21300262: cloud9
+    21300264: clouds1
+    21300266: clouds2
+    21300268: fence
+    21300270: fence
+    21300272: fence_piece
+    21300274: fence_piece
+    21300276: grass1
+    21300278: grass1
+    21300280: grass2
+    21300282: grass2
+    21300284: grass3
+    21300286: grass4
+    21300288: grass5
+    21300290: grass6
+    21300292: hills1
+    21300294: hills2
+    21300296: house_beige_front
+    21300298: house_beige_side
+    21300300: house_front_short
+    21300302: house_front_tall
+    21300304: house_grey_front
+    21300306: house_grey_side
+    21300308: house_side_short
+    21300310: house_side_tall
+    21300312: moon_full
+    21300314: moon_half
+    21300316: mountain1
+    21300318: mountain2
+    21300320: mountain3
+    21300322: piramid
+    21300324: piramid
+    21300326: pointy_mountains
+    21300328: sun
+    21300330: temple
+    21300332: temple
+    21300334: tower
+    21300336: tower_beige
+    21300338: tower_grey
+    21300340: tree01
+    21300342: tree01
+    21300344: tree02
+    21300346: tree02
+    21300348: tree03
+    21300350: tree03
+    21300352: tree04
+    21300354: tree04
+    21300356: tree05
+    21300358: tree05
+    21300360: tree06
+    21300362: tree06
+    21300364: tree07
+    21300366: tree07
+    21300368: tree08
+    21300370: tree08
+    21300372: tree09
+    21300374: tree09
+    21300376: tree10
+    21300378: tree10
+    21300380: tree11
+    21300382: tree11
+    21300384: tree12
+    21300386: tree12
+    21300388: tree13
+    21300390: tree13
+    21300392: tree14
+    21300394: tree15
+    21300396: tree16
+    21300398: tree17
+    21300400: tree18
+    21300402: tree19
+    21300404: tree20
+    21300406: tree21
+    21300408: tree22
+    21300410: tree23
+    21300412: tree24
+    21300414: tree25
+    21300416: tree26
+    21300418: tree27
+    21300420: tree28
+    21300422: tree29
+    21300424: tree30
+    21300426: tree31
+    21300428: tree32
+    21300430: tree33
+    21300432: tree34
+    21300434: tree35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: castle
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 450
+        width: 205
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.5, y: 91}
+        - {x: -68.5, y: 87}
+        - {x: -75.5, y: 91}
+        - {x: -83.5, y: 91}
+        - {x: -102.5, y: 31}
+        - {x: -102.5, y: 6}
+        - {x: -84.5, y: -91}
+        - {x: 87.5, y: -91}
+        - {x: 102.5, y: -2}
+        - {x: 102.5, y: 34}
+        - {x: 82.5, y: 91}
+    - name: castle_beige
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 692
+        width: 204
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95, y: 91}
+        - {x: -88, y: 91}
+        - {x: -102, y: 34}
+        - {x: -102, y: 16}
+        - {x: -85, y: -87}
+        - {x: -84, y: -91}
+        - {x: 86, y: -91}
+        - {x: 85, y: -81}
+        - {x: 102, y: 17}
+        - {x: 102, y: 40}
+    - name: castle_grey
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 980
+        width: 204
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95, y: 91}
+        - {x: -88, y: 91}
+        - {x: -102, y: 34}
+        - {x: -102, y: 16}
+        - {x: -85, y: -87}
+        - {x: -84, y: -91}
+        - {x: 86, y: -91}
+        - {x: 85, y: -81}
+        - {x: 102, y: 17}
+        - {x: 102, y: 40}
+    - name: castle_wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 295
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.5, y: 57}
+        - {x: 136.5, y: 61}
+        - {x: 76.5, y: 69}
+        - {x: -45.5, y: 69}
+        - {x: -102.5, y: 60}
+        - {x: -132.5, y: 69}
+        - {x: -142.5, y: 69}
+        - {x: -147.5, y: -28}
+        - {x: -147.5, y: -69}
+        - {x: 147.5, y: -69}
+        - {x: 147.5, y: -62}
+        - {x: 138.5, y: -45}
+    - name: castle_wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 295
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 137.5, y: 57}
+        - {x: 136.5, y: 61}
+        - {x: 76.5, y: 69}
+        - {x: -45.5, y: 69}
+        - {x: -102.5, y: 60}
+        - {x: -132.5, y: 69}
+        - {x: -142.5, y: 69}
+        - {x: -147.5, y: -28}
+        - {x: -147.5, y: -69}
+        - {x: 147.5, y: -69}
+        - {x: 147.5, y: -62}
+        - {x: 138.5, y: -45}
+    - name: cloud1
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 563
+        width: 190
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 63.5}
+        - {x: -46, y: 63.5}
+        - {x: -95, y: 20.5}
+        - {x: -95, y: -56.5}
+        - {x: -55, y: -63.5}
+        - {x: 95, y: -63.5}
+        - {x: 95, y: 23.5}
+        - {x: 88, y: 46.5}
+    - name: cloud1
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 563
+        width: 190
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 63.5}
+        - {x: -46, y: 63.5}
+        - {x: -95, y: 20.5}
+        - {x: -95, y: -56.5}
+        - {x: -55, y: -63.5}
+        - {x: 95, y: -63.5}
+        - {x: 95, y: 23.5}
+        - {x: 88, y: 46.5}
+    - name: cloud2
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 113
+        width: 200
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 62.5}
+        - {x: -42, y: 62.5}
+        - {x: -100, y: 15.5}
+        - {x: -100, y: -54.5}
+        - {x: -45, y: -62.5}
+        - {x: 100, y: -62.5}
+        - {x: 100, y: 54.5}
+    - name: cloud2
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 113
+        width: 200
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: 62.5}
+        - {x: -42, y: 62.5}
+        - {x: -100, y: 15.5}
+        - {x: -100, y: -54.5}
+        - {x: -45, y: -62.5}
+        - {x: 100, y: -62.5}
+        - {x: 100, y: 54.5}
+    - name: cloud3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1041
+        width: 177
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 60.5}
+        - {x: -88.5, y: 39.5}
+        - {x: -88.5, y: -37.5}
+        - {x: -67.5, y: -60.5}
+        - {x: 88.5, y: -60.5}
+        - {x: 88.5, y: 12.5}
+        - {x: 44.5, y: 60.5}
+    - name: cloud3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1041
+        width: 177
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.5, y: 60.5}
+        - {x: -88.5, y: 39.5}
+        - {x: -88.5, y: -37.5}
+        - {x: -67.5, y: -60.5}
+        - {x: 88.5, y: -60.5}
+        - {x: 88.5, y: 12.5}
+        - {x: 44.5, y: 60.5}
+    - name: cloud4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 918
+        width: 228
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 62}
+        - {x: -39, y: 62}
+        - {x: -114, y: 13}
+        - {x: -114, y: -42}
+        - {x: -108, y: -50}
+        - {x: -77, y: -62}
+        - {x: 77, y: -62}
+        - {x: 114, y: -39}
+        - {x: 114, y: 6}
+        - {x: 106, y: 25}
+    - name: cloud4
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 918
+        width: 228
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: 62}
+        - {x: -39, y: 62}
+        - {x: -114, y: 13}
+        - {x: -114, y: -42}
+        - {x: -108, y: -50}
+        - {x: -77, y: -62}
+        - {x: 77, y: -62}
+        - {x: 114, y: -39}
+        - {x: 114, y: 6}
+        - {x: 106, y: 25}
+    - name: cloud5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 41
+        width: 239
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 67}
+        - {x: -54.5, y: 67}
+        - {x: -74.5, y: 61}
+        - {x: -119.5, y: 0}
+        - {x: -119.5, y: -38}
+        - {x: -84.5, y: -67}
+        - {x: 81.5, y: -67}
+        - {x: 103.5, y: -65}
+        - {x: 119.5, y: -58}
+        - {x: 119.5, y: -15}
+        - {x: 86.5, y: 43}
+    - name: cloud5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 41
+        width: 239
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 67}
+        - {x: -54.5, y: 67}
+        - {x: -74.5, y: 61}
+        - {x: -119.5, y: 0}
+        - {x: -119.5, y: -38}
+        - {x: -84.5, y: -67}
+        - {x: 81.5, y: -67}
+        - {x: 103.5, y: -65}
+        - {x: 119.5, y: -58}
+        - {x: 119.5, y: -15}
+        - {x: 86.5, y: 43}
+    - name: cloud6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 266
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 67}
+        - {x: 6, y: 69}
+        - {x: -46, y: 69}
+        - {x: -102, y: 39}
+        - {x: -129, y: 18}
+        - {x: -133, y: 13}
+        - {x: -133, y: -23}
+        - {x: -92, y: -69}
+        - {x: 133, y: -69}
+        - {x: 133, y: -15}
+        - {x: 83, y: 20}
+    - name: cloud6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 266
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 67}
+        - {x: 6, y: 69}
+        - {x: -46, y: 69}
+        - {x: -102, y: 39}
+        - {x: -129, y: 18}
+        - {x: -133, y: 13}
+        - {x: -133, y: -23}
+        - {x: -92, y: -69}
+        - {x: 133, y: -69}
+        - {x: 133, y: -15}
+        - {x: 83, y: 20}
+    - name: cloud7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 627
+        width: 234
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 59}
+        - {x: -117, y: 0}
+        - {x: -117, y: -46}
+        - {x: -95, y: -59}
+        - {x: 86, y: -59}
+        - {x: 117, y: -57}
+        - {x: 117, y: -19}
+        - {x: 33, y: 59}
+    - name: cloud7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 627
+        width: 234
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 59}
+        - {x: -117, y: 0}
+        - {x: -117, y: -46}
+        - {x: -95, y: -59}
+        - {x: 86, y: -59}
+        - {x: 117, y: -57}
+        - {x: 117, y: -19}
+        - {x: 33, y: 59}
+    - name: cloud8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 72
+        width: 210
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 59.5}
+        - {x: -83, y: 59.5}
+        - {x: -105, y: 19.5}
+        - {x: -105, y: -57.5}
+        - {x: -96, y: -59.5}
+        - {x: 105, y: -59.5}
+        - {x: 105, y: -16.5}
+        - {x: 76, y: 57.5}
+    - name: cloud8
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 72
+        width: 210
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67, y: 59.5}
+        - {x: -83, y: 59.5}
+        - {x: -105, y: 19.5}
+        - {x: -105, y: -57.5}
+        - {x: -96, y: -59.5}
+        - {x: 105, y: -59.5}
+        - {x: 105, y: -16.5}
+        - {x: 76, y: 57.5}
+    - name: cloud9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 755
+        width: 213
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106.5, y: 33.5}
+        - {x: -106.5, y: -47.5}
+        - {x: -92.5, y: -59.5}
+        - {x: 106.5, y: -59.5}
+        - {x: 106.5, y: -22.5}
+        - {x: 100.5, y: -7.5}
+        - {x: 24.5, y: 59.5}
+        - {x: -57.5, y: 59.5}
+        - {x: -97.5, y: 46.5}
+    - name: cloud9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 755
+        width: 213
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106.5, y: 33.5}
+        - {x: -106.5, y: -47.5}
+        - {x: -92.5, y: -59.5}
+        - {x: 106.5, y: -59.5}
+        - {x: 106.5, y: -22.5}
+        - {x: 100.5, y: -7.5}
+        - {x: 24.5, y: 59.5}
+        - {x: -57.5, y: 59.5}
+        - {x: -97.5, y: 46.5}
+    - name: clouds1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1842
+        width: 1001
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 468.5, y: 51}
+        - {x: 438.5, y: 44}
+        - {x: 427.5, y: 40}
+        - {x: 407.5, y: 54}
+        - {x: 376.5, y: 55}
+        - {x: 351.5, y: 45}
+        - {x: 335.5, y: 24}
+        - {x: 327.5, y: 28}
+        - {x: 297.5, y: 25}
+        - {x: 287.5, y: 19}
+        - {x: 259.5, y: 13}
+        - {x: 246.5, y: 8}
+        - {x: 246.5, y: 41}
+        - {x: 229.5, y: 68}
+        - {x: 206.5, y: 79}
+        - {x: 182.5, y: 79}
+        - {x: 161.5, y: 69}
+        - {x: 152.5, y: 61}
+        - {x: 127.5, y: 61}
+        - {x: 118.5, y: 60}
+        - {x: 105.5, y: 52}
+        - {x: 91.5, y: 40}
+        - {x: 76.5, y: 11}
+        - {x: 63.5, y: 2}
+        - {x: 59.5, y: 13}
+        - {x: 41.5, y: 26}
+        - {x: 8.5, y: 26}
+        - {x: -10.5, y: 11}
+        - {x: -21.5, y: 19}
+        - {x: -34.5, y: 27}
+        - {x: -64.5, y: 26}
+        - {x: -73.5, y: 23}
+        - {x: -89.5, y: 10}
+        - {x: -109.5, y: 10}
+        - {x: -131.5, y: -3}
+        - {x: -146.5, y: 9}
+        - {x: -162.5, y: 17}
+        - {x: -162.5, y: 29}
+        - {x: -180.5, y: 52}
+        - {x: -194.5, y: 59}
+        - {x: -223.5, y: 71}
+        - {x: -248.5, y: 90}
+        - {x: -267.5, y: 88}
+        - {x: -297.5, y: 103}
+        - {x: -339.5, y: 103}
+        - {x: -356.5, y: 90}
+        - {x: -367.5, y: 68}
+        - {x: -385.5, y: 42}
+        - {x: -413.5, y: 50}
+        - {x: -439.5, y: 49}
+        - {x: -451.5, y: 44}
+        - {x: -461.5, y: 34}
+        - {x: -474.5, y: 44}
+        - {x: -495.5, y: 60}
+        - {x: -500.5, y: 58}
+        - {x: -500.5, y: -103}
+        - {x: 500.5, y: -103}
+        - {x: 500.5, y: 58}
+        - {x: 489.5, y: 60}
+    - name: clouds2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1164
+        width: 1000
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 485, y: 10}
+        - {x: 476, y: 15}
+        - {x: 457, y: 27}
+        - {x: 442, y: 34}
+        - {x: 421, y: 33}
+        - {x: 409, y: 27}
+        - {x: 396, y: 13}
+        - {x: 392, y: 1}
+        - {x: 376, y: 2}
+        - {x: 358, y: 16}
+        - {x: 333, y: 15}
+        - {x: 317, y: 7}
+        - {x: 310, y: 14}
+        - {x: 291, y: 23}
+        - {x: 256, y: 25}
+        - {x: 239, y: 33}
+        - {x: 217, y: 42}
+        - {x: 213, y: 48}
+        - {x: 204, y: 58}
+        - {x: 192, y: 63}
+        - {x: 169, y: 78}
+        - {x: 155, y: 85}
+        - {x: 131, y: 82}
+        - {x: 122, y: 75}
+        - {x: 115, y: 66}
+        - {x: 87, y: 52}
+        - {x: 68, y: 50}
+        - {x: 44, y: 48}
+        - {x: 37, y: 44}
+        - {x: 25, y: 28}
+        - {x: 5, y: 34}
+        - {x: -6, y: 46}
+        - {x: -17, y: 50}
+        - {x: -38, y: 49}
+        - {x: -50, y: 45}
+        - {x: -58, y: 54}
+        - {x: -67, y: 62}
+        - {x: -85, y: 73}
+        - {x: -105, y: 78}
+        - {x: -120, y: 85}
+        - {x: -135, y: 96}
+        - {x: -144, y: 97}
+        - {x: -170, y: 119}
+        - {x: -181, y: 123}
+        - {x: -185, y: 123}
+        - {x: -207, y: 121}
+        - {x: -215, y: 123}
+        - {x: -269, y: 123}
+        - {x: -289, y: 114}
+        - {x: -296, y: 109}
+        - {x: -321, y: 83}
+        - {x: -338, y: 81}
+        - {x: -354, y: 67}
+        - {x: -359, y: 54}
+        - {x: -358, y: 31}
+        - {x: -368, y: 26}
+        - {x: -388, y: 12}
+        - {x: -411, y: 15}
+        - {x: -428, y: 5}
+        - {x: -433, y: -3}
+        - {x: -437, y: -11}
+        - {x: -452, y: -12}
+        - {x: -461, y: -14}
+        - {x: -477, y: -14}
+        - {x: -497, y: -15}
+        - {x: -500, y: -18}
+        - {x: -500, y: -123}
+        - {x: 500, y: -123}
+        - {x: 500, y: -11}
+        - {x: 495, y: 0}
+    - name: fence
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 890
+        width: 128
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 44}
+        - {x: -64, y: 30}
+        - {x: -64, y: -44}
+        - {x: 62, y: -44}
+        - {x: 64, y: -37}
+        - {x: 64, y: 44}
+    - name: fence
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 890
+        width: 128
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 44}
+        - {x: -64, y: 30}
+        - {x: -64, y: -44}
+        - {x: 62, y: -44}
+        - {x: 64, y: -37}
+        - {x: 64, y: 44}
+    - name: fence_piece
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 362
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 43}
+        - {x: -55, y: 30}
+        - {x: -55, y: 9}
+        - {x: -54, y: 3}
+        - {x: -50, y: -23}
+        - {x: -47, y: -42}
+        - {x: -46, y: -43}
+        - {x: -23, y: -43}
+        - {x: 55, y: -30}
+        - {x: 55, y: 30}
+        - {x: 29, y: 43}
+    - name: fence_piece
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 362
+        width: 110
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 43}
+        - {x: -55, y: 30}
+        - {x: -55, y: 9}
+        - {x: -54, y: 3}
+        - {x: -50, y: -23}
+        - {x: -47, y: -42}
+        - {x: -46, y: -43}
+        - {x: -23, y: -43}
+        - {x: 55, y: -30}
+        - {x: 55, y: 30}
+        - {x: 29, y: 43}
+    - name: grass1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 21
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grass1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 21
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grass2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 17.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -16.5}
+        - {x: -18, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 5.5}
+        - {x: 14, y: 17.5}
+    - name: grass2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 17.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -16.5}
+        - {x: -18, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 5.5}
+        - {x: 14, y: 17.5}
+    - name: grass3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 17.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -16.5}
+        - {x: -18, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 5.5}
+        - {x: 14, y: 17.5}
+    - name: grass4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 17.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -16.5}
+        - {x: -18, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 5.5}
+        - {x: 14, y: 17.5}
+    - name: grass5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 21
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grass6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 17.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -16.5}
+        - {x: -18, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 19, y: -13.5}
+        - {x: 19, y: 5.5}
+        - {x: 14, y: 17.5}
+    - name: hills1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1542
+        width: 1001
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 476.5, y: 41}
+        - {x: 413.5, y: 15}
+        - {x: 386.5, y: 9}
+        - {x: 352.5, y: 9}
+        - {x: 328.5, y: 14}
+        - {x: 266.5, y: 37}
+        - {x: 199.5, y: 57}
+        - {x: 169.5, y: 64}
+        - {x: 97.5, y: 64}
+        - {x: 84.5, y: 62}
+        - {x: 66.5, y: 58}
+        - {x: 35.5, y: 50}
+        - {x: 6.5, y: 40}
+        - {x: -22.5, y: 28}
+        - {x: -39.5, y: 20}
+        - {x: -69.5, y: 9}
+        - {x: -111.5, y: 1}
+        - {x: -130.5, y: -1}
+        - {x: -130.5, y: -3}
+        - {x: -171.5, y: -2}
+        - {x: -205.5, y: 2}
+        - {x: -261.5, y: 16}
+        - {x: -267.5, y: 19}
+        - {x: -284.5, y: 26}
+        - {x: -343.5, y: 44}
+        - {x: -382.5, y: 54}
+        - {x: -409.5, y: 58}
+        - {x: -423.5, y: 59}
+        - {x: -465.5, y: 58}
+        - {x: -482.5, y: 54}
+        - {x: -495.5, y: 51}
+        - {x: -499.5, y: 50}
+        - {x: -500.5, y: 49}
+        - {x: -500.5, y: -64}
+        - {x: 500.5, y: -64}
+        - {x: 500.5, y: 49}
+        - {x: 492.5, y: 47}
+    - name: hills2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1412
+        width: 1001
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 476.5, y: 41}
+        - {x: 413.5, y: 15}
+        - {x: 386.5, y: 9}
+        - {x: 385.5, y: 8}
+        - {x: 352.5, y: 9}
+        - {x: 328.5, y: 14}
+        - {x: 266.5, y: 37}
+        - {x: 202.5, y: 56}
+        - {x: 178.5, y: 62}
+        - {x: 167.5, y: 64}
+        - {x: 97.5, y: 64}
+        - {x: 84.5, y: 62}
+        - {x: 66.5, y: 58}
+        - {x: 35.5, y: 50}
+        - {x: 6.5, y: 40}
+        - {x: -22.5, y: 28}
+        - {x: -39.5, y: 20}
+        - {x: -69.5, y: 9}
+        - {x: -111.5, y: 1}
+        - {x: -130.5, y: -1}
+        - {x: -130.5, y: -3}
+        - {x: -171.5, y: -2}
+        - {x: -238.5, y: 9}
+        - {x: -244.5, y: 11}
+        - {x: -273.5, y: 22}
+        - {x: -333.5, y: 40}
+        - {x: -383.5, y: 53}
+        - {x: -409.5, y: 58}
+        - {x: -451.5, y: 58}
+        - {x: -464.5, y: 57}
+        - {x: -482.5, y: 54}
+        - {x: -495.5, y: 51}
+        - {x: -499.5, y: 50}
+        - {x: -500.5, y: 49}
+        - {x: -500.5, y: -64}
+        - {x: 500.5, y: -64}
+        - {x: 500.5, y: 49}
+        - {x: 492.5, y: 47}
+    - name: house_beige_front
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 9
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 57.5}
+        - {x: -51, y: 10.5}
+        - {x: -51, y: -18.5}
+        - {x: -41, y: -57.5}
+        - {x: 41, y: -57.5}
+        - {x: 51, y: -0.5}
+        - {x: 51, y: 9.5}
+        - {x: 3, y: 57.5}
+    - name: house_beige_side
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1047
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 57.5}
+        - {x: -94.5, y: 9.5}
+        - {x: -94.5, y: 2.5}
+        - {x: -90.5, y: -3.5}
+        - {x: -84.5, y: -57.5}
+        - {x: 90.5, y: -57.5}
+        - {x: 94.5, y: -10.5}
+        - {x: 94.5, y: 12.5}
+        - {x: 49.5, y: 57.5}
+    - name: house_front_short
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1172
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 57.5}
+        - {x: -51, y: 10.5}
+        - {x: -51, y: -18.5}
+        - {x: -41, y: -57.5}
+        - {x: 41, y: -57.5}
+        - {x: 51, y: -0.5}
+        - {x: 51, y: 9.5}
+        - {x: 3, y: 57.5}
+    - name: house_front_tall
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1410
+        width: 102
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 87}
+        - {x: -51, y: 39}
+        - {x: -51, y: -83}
+        - {x: -42, y: -87}
+        - {x: 51, y: -87}
+        - {x: 51, y: 40}
+        - {x: 3, y: 87}
+    - name: house_grey_front
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 438
+        width: 102
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 87}
+        - {x: -51, y: 39}
+        - {x: -51, y: -83}
+        - {x: -42, y: -87}
+        - {x: 51, y: -87}
+        - {x: 51, y: 40}
+        - {x: 3, y: 87}
+    - name: house_grey_side
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1874
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 87}
+        - {x: -39, y: 87}
+        - {x: -87, y: 39}
+        - {x: -87, y: 32}
+        - {x: -83, y: 27}
+        - {x: -78, y: 28}
+        - {x: -77, y: -87}
+        - {x: 80, y: -87}
+        - {x: 80, y: 28}
+        - {x: 87, y: 28}
+        - {x: 87, y: 39}
+    - name: house_side_short
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 863
+        width: 189
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 57.5}
+        - {x: -94.5, y: 9.5}
+        - {x: -94.5, y: 2.5}
+        - {x: -90.5, y: -3.5}
+        - {x: -84.5, y: -57.5}
+        - {x: 90.5, y: -57.5}
+        - {x: 94.5, y: -10.5}
+        - {x: 94.5, y: 12.5}
+        - {x: 49.5, y: 57.5}
+    - name: house_side_tall
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1698
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 87}
+        - {x: -39, y: 87}
+        - {x: -87, y: 39}
+        - {x: -87, y: 32}
+        - {x: -83, y: 27}
+        - {x: -78, y: 28}
+        - {x: -77, y: -87}
+        - {x: 80, y: -87}
+        - {x: 80, y: 28}
+        - {x: 87, y: 28}
+        - {x: 87, y: 39}
+    - name: moon_full
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 334
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 42.5}
+        - {x: -42.5, y: 35.5}
+        - {x: -42.5, y: -42.5}
+        - {x: 36.5, y: -42.5}
+        - {x: 42.5, y: -39.5}
+        - {x: 42.5, y: 42.5}
+    - name: moon_half
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1709
+        width: 84
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 42.5}
+        - {x: -39, y: 42.5}
+        - {x: -42, y: 35.5}
+        - {x: -42, y: -37.5}
+        - {x: -26, y: -42.5}
+        - {x: 29, y: -42.5}
+        - {x: 42, y: -29.5}
+        - {x: 42, y: -3.5}
+        - {x: 41, y: -4.5}
+    - name: mountain1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 286
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: -101}
+        - {x: 73, y: 14}
+        - {x: 70, y: 17}
+        - {x: 55, y: 21}
+        - {x: 36, y: 105}
+        - {x: 23, y: 153}
+        - {x: -33, y: 153}
+        - {x: -37, y: 140}
+        - {x: -57, y: 54}
+        - {x: -85, y: -58}
+        - {x: -108, y: -57}
+        - {x: -125, y: -97}
+        - {x: -143, y: -146}
+        - {x: -143, y: -153}
+        - {x: 143, y: -153}
+        - {x: 143, y: -145}
+        - {x: 142, y: -143}
+    - name: mountain2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 249
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: -53}
+        - {x: 13.5, y: 121}
+        - {x: -45.5, y: 121}
+        - {x: -47.5, y: 117}
+        - {x: -71.5, y: 36}
+        - {x: -94.5, y: 36}
+        - {x: -103.5, y: -4}
+        - {x: -124.5, y: -108}
+        - {x: -124.5, y: -121}
+        - {x: 124.5, y: -121}
+        - {x: 124.5, y: -118}
+        - {x: 69.5, y: -63}
+    - name: mountain3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 177
+        width: 245
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.5, y: -98.5}
+        - {x: 64.5, y: -98.5}
+        - {x: 40.5, y: 193.5}
+        - {x: 39.5, y: 198.5}
+        - {x: -7.5, y: 198.5}
+        - {x: -43.5, y: 111.5}
+        - {x: -44.5, y: 108.5}
+        - {x: -52.5, y: 64.5}
+        - {x: -64.5, y: -2.5}
+        - {x: -66.5, y: -12.5}
+        - {x: -89.5, y: -12.5}
+        - {x: -91.5, y: -16.5}
+        - {x: -118.5, y: -160.5}
+        - {x: -122.5, y: -182.5}
+        - {x: -122.5, y: -198.5}
+        - {x: 122.5, y: -198.5}
+        - {x: 122.5, y: -187.5}
+        - {x: 94.5, y: -102.5}
+    - name: piramid
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 193
+        width: 215
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 83}
+        - {x: -12.5, y: 83}
+        - {x: -107.5, y: -76}
+        - {x: -107.5, y: -83}
+        - {x: 107.5, y: -83}
+        - {x: 107.5, y: -77}
+        - {x: 10.5, y: 76}
+    - name: piramid
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 193
+        width: 215
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 83}
+        - {x: -12.5, y: 83}
+        - {x: -107.5, y: -76}
+        - {x: -107.5, y: -83}
+        - {x: 107.5, y: -83}
+        - {x: 107.5, y: -77}
+        - {x: 10.5, y: 76}
+    - name: pointy_mountains
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1672
+        width: 1001
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 457.5, y: -68}
+        - {x: 408.5, y: -20}
+        - {x: 317.5, y: 69}
+        - {x: 308.5, y: 73}
+        - {x: 299.5, y: 73}
+        - {x: 292.5, y: 70}
+        - {x: 235.5, y: 15}
+        - {x: 165.5, y: -53}
+        - {x: 150.5, y: -37}
+        - {x: 119.5, y: -8}
+        - {x: 105.5, y: -9}
+        - {x: 58.5, y: -56}
+        - {x: 28.5, y: -26}
+        - {x: -1.5, y: 1}
+        - {x: -4.5, y: 7}
+        - {x: -20.5, y: 10}
+        - {x: -24.5, y: 6}
+        - {x: -60.5, y: -31}
+        - {x: -81.5, y: -31}
+        - {x: -140.5, y: 26}
+        - {x: -198.5, y: 84}
+        - {x: -218.5, y: 84}
+        - {x: -330.5, y: -28}
+        - {x: -333.5, y: -24}
+        - {x: -383.5, y: 25}
+        - {x: -395.5, y: 23}
+        - {x: -473.5, y: -53}
+        - {x: -498.5, y: -28}
+        - {x: -500.5, y: -29}
+        - {x: -500.5, y: -84}
+        - {x: 500.5, y: -84}
+        - {x: 500.5, y: -29}
+        - {x: 498.5, y: -29}
+    - name: sun
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 362
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 43}
+        - {x: -43.5, y: 28}
+        - {x: -43.5, y: -36}
+        - {x: -33.5, y: -43}
+        - {x: 21.5, y: -43}
+        - {x: 43.5, y: -36}
+        - {x: 43.5, y: 38}
+        - {x: 32.5, y: 43}
+    - name: temple
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 494
+        width: 223
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 65.5}
+        - {x: -109.5, y: -48.5}
+        - {x: -111.5, y: -56.5}
+        - {x: -111.5, y: -65.5}
+        - {x: 111.5, y: -65.5}
+        - {x: 111.5, y: -59.5}
+        - {x: 49.5, y: 65.5}
+    - name: temple
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 494
+        width: 223
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 65.5}
+        - {x: -109.5, y: -48.5}
+        - {x: -111.5, y: -56.5}
+        - {x: -111.5, y: -65.5}
+        - {x: 111.5, y: -65.5}
+        - {x: 111.5, y: -59.5}
+        - {x: 49.5, y: 65.5}
+    - name: tower
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 209
+        width: 66
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 113.5}
+        - {x: -33, y: 69.5}
+        - {x: -33, y: -84.5}
+        - {x: -31, y: -113.5}
+        - {x: 33, y: -113.5}
+        - {x: 33, y: 72.5}
+        - {x: 3, y: 113.5}
+    - name: tower_beige
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1559
+        width: 66
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 113.5}
+        - {x: -33, y: 56.5}
+        - {x: -33, y: -67.5}
+        - {x: -31, y: -113.5}
+        - {x: 33, y: -113.5}
+        - {x: 33, y: 55.5}
+        - {x: 3, y: 113.5}
+    - name: tower_grey
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 657
+        width: 66
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 113.5}
+        - {x: -4, y: 113.5}
+        - {x: -33, y: 68.5}
+        - {x: -33, y: -81.5}
+        - {x: -31, y: -113.5}
+        - {x: 33, y: -113.5}
+        - {x: 33, y: 54.5}
+        - {x: 29, y: 64.5}
+    - name: tree01
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 126
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree01
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 126
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree02
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 854
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree02
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 854
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree03
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 559
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree03
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 559
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -99.5}
+        - {x: 67, y: -91.5}
+        - {x: -14, y: 146.5}
+        - {x: -21, y: 146.5}
+        - {x: -68, y: -34.5}
+        - {x: -68, y: -126.5}
+        - {x: -56, y: -146.5}
+        - {x: 25, y: -146.5}
+        - {x: 24, y: -141.5}
+        - {x: 12, y: -122.5}
+        - {x: 68, y: -120.5}
+    - name: tree04
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1149
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 146.5}
+        - {x: -68, y: 35.5}
+        - {x: -68, y: -140.5}
+        - {x: -66, y: -146.5}
+        - {x: 26, y: -146.5}
+        - {x: 68, y: -127.5}
+        - {x: 68, y: 73.5}
+        - {x: -12, y: 146.5}
+    - name: tree04
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1149
+        width: 136
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 146.5}
+        - {x: -68, y: 35.5}
+        - {x: -68, y: -140.5}
+        - {x: -66, y: -146.5}
+        - {x: 26, y: -146.5}
+        - {x: 68, y: -127.5}
+        - {x: 68, y: 73.5}
+        - {x: -12, y: 146.5}
+    - name: tree05
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1818
+        width: 129
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 115}
+        - {x: -48.5, y: 115}
+        - {x: -58.5, y: 113}
+        - {x: -64.5, y: 69}
+        - {x: -64.5, y: -74}
+        - {x: -32.5, y: -115}
+        - {x: 28.5, y: -115}
+        - {x: 64.5, y: -49}
+        - {x: 64.5, y: 35}
+        - {x: 42.5, y: 105}
+    - name: tree05
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1818
+        width: 129
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 115}
+        - {x: -48.5, y: 115}
+        - {x: -58.5, y: 113}
+        - {x: -64.5, y: 69}
+        - {x: -64.5, y: -74}
+        - {x: -32.5, y: -115}
+        - {x: 28.5, y: -115}
+        - {x: 64.5, y: -49}
+        - {x: 64.5, y: 35}
+        - {x: 42.5, y: 105}
+    - name: tree06
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1586
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 106}
+        - {x: 21, y: 115}
+        - {x: -35, y: 115}
+        - {x: -64, y: 65}
+        - {x: -64, y: -58}
+        - {x: -27, y: -115}
+        - {x: 25, y: -115}
+        - {x: 64, y: -53}
+        - {x: 64, y: 29}
+        - {x: 60, y: 57}
+    - name: tree06
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1586
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 106}
+        - {x: 21, y: 115}
+        - {x: -35, y: 115}
+        - {x: -64, y: 65}
+        - {x: -64, y: -58}
+        - {x: -27, y: -115}
+        - {x: 25, y: -115}
+        - {x: 64, y: -53}
+        - {x: 64, y: 29}
+        - {x: 60, y: 57}
+    - name: tree07
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 95
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 115}
+        - {x: -31, y: 115}
+        - {x: -64, y: 51}
+        - {x: -64, y: -67}
+        - {x: -33, y: -115}
+        - {x: 24, y: -115}
+        - {x: 64, y: -69}
+        - {x: 64, y: 37}
+        - {x: 53, y: 96}
+    - name: tree07
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 95
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 115}
+        - {x: -31, y: 115}
+        - {x: -64, y: 51}
+        - {x: -64, y: -67}
+        - {x: -33, y: -115}
+        - {x: 24, y: -115}
+        - {x: 64, y: -69}
+        - {x: 64, y: 37}
+        - {x: 53, y: 96}
+    - name: tree08
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1272
+        width: 59
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 142.5}
+        - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -86.5}
+        - {x: -27.5, y: -142.5}
+        - {x: 11.5, y: -142.5}
+        - {x: 29.5, y: -119.5}
+        - {x: 29.5, y: 138.5}
+        - {x: 18.5, y: 142.5}
+    - name: tree08
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1272
+        width: 59
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 142.5}
+        - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -86.5}
+        - {x: -27.5, y: -142.5}
+        - {x: 11.5, y: -142.5}
+        - {x: 29.5, y: -119.5}
+        - {x: 29.5, y: 138.5}
+        - {x: 18.5, y: 142.5}
+    - name: tree09
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1803
+        width: 59
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 122.5}
+        - {x: -29.5, y: 112.5}
+        - {x: -29.5, y: -47.5}
+        - {x: -9.5, y: -122.5}
+        - {x: 25.5, y: -122.5}
+        - {x: 29.5, y: -84.5}
+        - {x: 29.5, y: 122.5}
+    - name: tree09
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1803
+        width: 59
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 122.5}
+        - {x: -29.5, y: 112.5}
+        - {x: -29.5, y: -47.5}
+        - {x: -9.5, y: -122.5}
+        - {x: 25.5, y: -122.5}
+        - {x: 29.5, y: -84.5}
+        - {x: 29.5, y: 122.5}
+    - name: tree10
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 614
+        width: 106
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -23.5}
+        - {x: 32, y: 45.5}
+        - {x: -6, y: 120.5}
+        - {x: -14, y: 120.5}
+        - {x: -46, y: 46.5}
+        - {x: -53, y: -48.5}
+        - {x: -53, y: -88.5}
+        - {x: -17, y: -120.5}
+        - {x: 14, y: -120.5}
+        - {x: 15, y: -111.5}
+        - {x: 53, y: -74.5}
+        - {x: 53, y: -60.5}
+    - name: tree10
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 614
+        width: 106
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -23.5}
+        - {x: 32, y: 45.5}
+        - {x: -6, y: 120.5}
+        - {x: -14, y: 120.5}
+        - {x: -46, y: 46.5}
+        - {x: -53, y: -48.5}
+        - {x: -53, y: -88.5}
+        - {x: -17, y: -120.5}
+        - {x: 14, y: -120.5}
+        - {x: 15, y: -111.5}
+        - {x: 53, y: -74.5}
+        - {x: 53, y: -60.5}
+    - name: tree11
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 675
+        width: 143
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 152.5}
+        - {x: -71.5, y: 144.5}
+        - {x: -71.5, y: -101.5}
+        - {x: -15.5, y: -152.5}
+        - {x: 71.5, y: -152.5}
+        - {x: 71.5, y: 97.5}
+        - {x: 45.5, y: 152.5}
+    - name: tree11
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 675
+        width: 143
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: 152.5}
+        - {x: -71.5, y: 144.5}
+        - {x: -71.5, y: -101.5}
+        - {x: -15.5, y: -152.5}
+        - {x: 71.5, y: -152.5}
+        - {x: 71.5, y: 97.5}
+        - {x: 45.5, y: 152.5}
+    - name: tree12
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1444
+        width: 141
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 126}
+        - {x: -70.5, y: -28}
+        - {x: -70.5, y: -79}
+        - {x: -25.5, y: -126}
+        - {x: 18.5, y: -126}
+        - {x: 20.5, y: -125}
+        - {x: 70.5, y: -78}
+        - {x: 70.5, y: -39}
+        - {x: 3.5, y: 126}
+    - name: tree12
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1444
+        width: 141
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 126}
+        - {x: -70.5, y: -28}
+        - {x: -70.5, y: -79}
+        - {x: -25.5, y: -126}
+        - {x: 18.5, y: -126}
+        - {x: 20.5, y: -125}
+        - {x: 70.5, y: -78}
+        - {x: 70.5, y: -39}
+        - {x: 3.5, y: 126}
+    - name: tree13
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1332
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 115}
+        - {x: -41, y: 115}
+        - {x: -64, y: 74}
+        - {x: -64, y: -55}
+        - {x: -63, y: -57}
+        - {x: -22, y: -115}
+        - {x: 43, y: -115}
+        - {x: 64, y: -59}
+        - {x: 64, y: 84}
+        - {x: 54, y: 101}
+    - name: tree13
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1332
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 115}
+        - {x: -41, y: 115}
+        - {x: -64, y: 74}
+        - {x: -64, y: -55}
+        - {x: -63, y: -57}
+        - {x: -22, y: -115}
+        - {x: 43, y: -115}
+        - {x: 64, y: -59}
+        - {x: 64, y: 84}
+        - {x: 54, y: 101}
+    - name: tree14
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 456
+        width: 48
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 52.5}
+        - {x: -24, y: -8.5}
+        - {x: -24, y: -33.5}
+        - {x: -11, y: -52.5}
+        - {x: 24, y: -52.5}
+        - {x: 24, y: 24.5}
+        - {x: 1, y: 52.5}
+    - name: tree15
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 6
+        width: 48
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 52.5}
+        - {x: -24, y: -8.5}
+        - {x: -24, y: -33.5}
+        - {x: -11, y: -52.5}
+        - {x: 24, y: -52.5}
+        - {x: 24, y: 24.5}
+        - {x: 1, y: 52.5}
+    - name: tree16
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1642
+        width: 70
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 72}
+        - {x: -35, y: 68}
+        - {x: -35, y: -58}
+        - {x: -18, y: -72}
+        - {x: 35, y: -72}
+        - {x: 35, y: 56}
+        - {x: 15, y: 72}
+    - name: tree17
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1657
+        width: 53
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 72}
+        - {x: -24.5, y: 72}
+        - {x: -26.5, y: 68}
+        - {x: -26.5, y: -72}
+        - {x: -0.5, y: -72}
+        - {x: 26.5, y: -37}
+        - {x: 26.5, y: 66}
+    - name: tree18
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1298
+        width: 70
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 72}
+        - {x: -35, y: 68}
+        - {x: -35, y: -58}
+        - {x: -18, y: -72}
+        - {x: 35, y: -72}
+        - {x: 35, y: 56}
+        - {x: 15, y: 72}
+    - name: tree19
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 511
+        width: 53
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 71}
+        - {x: -1.5, y: 72}
+        - {x: -24.5, y: 72}
+        - {x: -26.5, y: 68}
+        - {x: -26.5, y: -72}
+        - {x: -0.5, y: -72}
+        - {x: 26.5, y: -39}
+        - {x: 26.5, y: 37}
+        - {x: 8.5, y: 43}
+    - name: tree20
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1148
+        width: 97
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -30}
+        - {x: 37.5, y: 37}
+        - {x: -9.5, y: 130}
+        - {x: -23.5, y: 130}
+        - {x: -40.5, y: 126}
+        - {x: -48.5, y: 51}
+        - {x: -48.5, y: -119}
+        - {x: -31.5, y: -130}
+        - {x: 27.5, y: -130}
+        - {x: 28.5, y: -125}
+        - {x: 48.5, y: -101}
+        - {x: 48.5, y: -70}
+    - name: tree21
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1788
+        width: 97
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.5, y: -30}
+        - {x: 37.5, y: 37}
+        - {x: -9.5, y: 130}
+        - {x: -23.5, y: 130}
+        - {x: -40.5, y: 126}
+        - {x: -48.5, y: 51}
+        - {x: -48.5, y: -119}
+        - {x: -31.5, y: -130}
+        - {x: 27.5, y: -130}
+        - {x: 28.5, y: -125}
+        - {x: 48.5, y: -101}
+        - {x: 48.5, y: -70}
+    - name: tree22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 886
+        width: 97
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 37}
+        - {x: -2.5, y: 110}
+        - {x: -12.5, y: 130}
+        - {x: -18.5, y: 130}
+        - {x: -48.5, y: 73}
+        - {x: -48.5, y: -125}
+        - {x: -26.5, y: -130}
+        - {x: 27.5, y: -130}
+        - {x: 28.5, y: -125}
+        - {x: 48.5, y: -101}
+        - {x: 48.5, y: -62}
+    - name: tree23
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1272
+        width: 59
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 142.5}
+        - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -86.5}
+        - {x: -27.5, y: -142.5}
+        - {x: 11.5, y: -142.5}
+        - {x: 29.5, y: -119.5}
+        - {x: 29.5, y: 138.5}
+        - {x: 18.5, y: 142.5}
+    - name: tree24
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 724
+        width: 59
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 142.5}
+        - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -86.5}
+        - {x: -27.5, y: -142.5}
+        - {x: 11.5, y: -142.5}
+        - {x: 29.5, y: -119.5}
+        - {x: 29.5, y: 138.5}
+        - {x: 18.5, y: 142.5}
+    - name: tree25
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1803
+        width: 59
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 122.5}
+        - {x: -29.5, y: 112.5}
+        - {x: -29.5, y: -47.5}
+        - {x: -9.5, y: -122.5}
+        - {x: 25.5, y: -122.5}
+        - {x: 29.5, y: -84.5}
+        - {x: 29.5, y: 122.5}
+    - name: tree26
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 117
+        width: 59
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 122.5}
+        - {x: -29.5, y: 112.5}
+        - {x: -29.5, y: -47.5}
+        - {x: -9.5, y: -122.5}
+        - {x: 25.5, y: -122.5}
+        - {x: 29.5, y: -84.5}
+        - {x: 29.5, y: 122.5}
+    - name: tree27
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 364
+        width: 59
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -128.5}
+        - {x: -27.5, y: -129.5}
+        - {x: 23.5, y: -129.5}
+        - {x: 29.5, y: -115.5}
+        - {x: 29.5, y: 129.5}
+    - name: tree28
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1011
+        width: 59
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 129.5}
+        - {x: -29.5, y: -128.5}
+        - {x: -27.5, y: -129.5}
+        - {x: 23.5, y: -129.5}
+        - {x: 29.5, y: -115.5}
+        - {x: 29.5, y: 129.5}
+    - name: tree29
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 16
+        width: 143
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 152.5}
+        - {x: -36.5, y: 117.5}
+        - {x: -41.5, y: 109.5}
+        - {x: -71.5, y: 43.5}
+        - {x: -71.5, y: 20.5}
+        - {x: -14.5, y: -152.5}
+        - {x: 15.5, y: -152.5}
+        - {x: 71.5, y: 18.5}
+        - {x: 71.5, y: 121.5}
+        - {x: 38.5, y: 152.5}
+    - name: tree30
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 982
+        width: 143
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 152.5}
+        - {x: -36.5, y: 117.5}
+        - {x: -41.5, y: 109.5}
+        - {x: -71.5, y: 43.5}
+        - {x: -71.5, y: 20.5}
+        - {x: -14.5, y: -152.5}
+        - {x: 15.5, y: -152.5}
+        - {x: 71.5, y: 18.5}
+        - {x: 71.5, y: 121.5}
+        - {x: 38.5, y: 152.5}
+    - name: tree31
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1444
+        width: 141
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 126}
+        - {x: -14.5, y: 123}
+        - {x: -70.5, y: -58}
+        - {x: -70.5, y: -82}
+        - {x: -33.5, y: -126}
+        - {x: 35.5, y: -126}
+        - {x: 70.5, y: -77}
+        - {x: 70.5, y: -50}
+        - {x: 1.5, y: 126}
+    - name: tree32
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1796
+        width: 141
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 126}
+        - {x: -9.5, y: 126}
+        - {x: -14.5, y: 124}
+        - {x: -70.5, y: -60}
+        - {x: -70.5, y: -80}
+        - {x: -26.5, y: -126}
+        - {x: 18.5, y: -126}
+        - {x: 21.5, y: -123}
+        - {x: 66.5, y: -76}
+        - {x: 70.5, y: -67}
+        - {x: 70.5, y: -44}
+    - name: tree33
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 421
+        width: 141
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 126}
+        - {x: -70.5, y: -13}
+        - {x: -70.5, y: -91}
+        - {x: -42.5, y: -126}
+        - {x: 13.5, y: -126}
+        - {x: 70.5, y: -73}
+        - {x: 70.5, y: -50}
+        - {x: 3.5, y: 126}
+    - name: tree34
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1564
+        width: 129
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 115}
+        - {x: -50.5, y: 105}
+        - {x: -64.5, y: 66}
+        - {x: -64.5, y: -56}
+        - {x: -52.5, y: -89}
+        - {x: -22.5, y: -115}
+        - {x: 23.5, y: -115}
+        - {x: 64.5, y: -52}
+        - {x: 64.5, y: 49}
+        - {x: 38.5, y: 115}
+    - name: tree35
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1818
+        width: 128
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 115}
+        - {x: -52, y: 94}
+        - {x: -64, y: 40}
+        - {x: -64, y: -74}
+        - {x: -37, y: -115}
+        - {x: 22, y: -115}
+        - {x: 64, y: -59}
+        - {x: 64, y: 90}
+        - {x: 27, y: 115}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,77 @@
+################################
+v2.4
+- added menu shortcut in hierarchy window to instantiate sorting instance
+- performance tweaks for dependency and tiled sorting
+- nested isotransform prefabs fixed
+- PhysicsMaterial can now be set via inspector
+- IsoCapsuleCollider copy fix
+- AutoSnap now works with window closed
+- IsoMeshCollider fixed
+- IsoTransform.Parent added
+- IsoRigidbody IsKinematric fixed
+
+################################
+v 2.3
+- IsoRigidbody intialization fix
+- IsoCollider initialization fix
+- IsoCollider performance enhancement
+	- static colliders supported
+	- Offset in IsoCollider removed for performance reasons
+	- FixedUpdate() disabled
+- Introduced Ultility function 'Isometric.GetProjecitonQuaternion' to rotate from Unity To IsoSpace for 3d objects and such
+- Isometric.ScreenPointToRay(screenSpacePoint, Camera = null) now has optional Camera parameter
+
+
+################################
+v 2.2.1
+- serialization issue with IsoControllers & IsoRigidbodies fixed
+- UpdateMouseCallbacks() in IsoSorting only if camera present in the scene
+- renamed IsoToScreen -> IsoToUnitySpace for better understanding
+- renamed ScreenToIso -> UnityToIsoSpace for better understanding
+- added PhysicsMaterial to IsoColliders
+- renamed 'TrueIsometric' folder to 'Platformer'
+!!!
+- Added tool under 'Tools/UIT/Unhide ghosts artefacts from previous version'. Please run once in your scene(s) and delete any ghosts that may show up in your hierchary window and save the scene(s)
+!!!
+################################
+v 2.2
+- Support for any orthogonal projection (isometric,dimetric & trimetric)
+- A* Agent bug fix
+- BoxCast support in IsoPhysics
+- Layermask support in IsoRaycast
+- better documentation on pathfinding heuristic
+- added 3 more sprite sets
+- add components in Editor via CompoentMenu (AddCompoent/UIT/...)
+- added 'standingOnGround'-check for AdvancedIsoObjectController
+- LevelGenerator won't instantiate objects under root
+- added support for OnMouse callbacks
+- bugfix for IsoSnapping
+
+################################
+v 2.1
+- IsoMeshCollider added
+- IsoAngle is now optional
+- IsoRaycaseHit support
+- Documentation improved
+- bug fixes
+
+################################
+v 2.0.1
+-hot fix
+
+################################
+v 2.0
+- rework of the toolkit
+- IsoObjects to IsoTransforms
+- A* Pathfinding
+- Better physics implementation
+- Sorting Strategies
+- Better documentation
+- Improved UnityEditor integration
+- Proper prefabs
+- OnIsoCollision & OnIsoTrigger implemented
+
+################################
+v 1.3.1
+- new Physics implementation
+- bug fixes

@@ -1,0 +1,759 @@
+fileFormatVersion: 2
+guid: 2426d9cb96de36d44bf4bbf8946e5620
+timeCreated: 1479567020
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: abstractTile_01.png
+    21300002: abstractTile_02.png
+    21300004: abstractTile_03.png
+    21300006: abstractTile_04.png
+    21300008: abstractTile_05.png
+    21300010: abstractTile_06.png
+    21300012: abstractTile_07.png
+    21300014: abstractTile_08.png
+    21300016: abstractTile_09.png
+    21300018: abstractTile_10.png
+    21300020: abstractTile_11.png
+    21300022: abstractTile_12.png
+    21300024: abstractTile_13.png
+    21300026: abstractTile_14.png
+    21300028: abstractTile_15.png
+    21300030: abstractTile_16.png
+    21300032: abstractTile_17.png
+    21300034: abstractTile_18.png
+    21300036: abstractTile_19.png
+    21300038: abstractTile_20.png
+    21300040: abstractTile_21.png
+    21300042: abstractTile_22.png
+    21300044: abstractTile_23.png
+    21300046: abstractTile_24.png
+    21300048: abstractTile_25.png
+    21300050: abstractTile_26.png
+    21300052: abstractTile_27.png
+    21300054: abstractTile_28.png
+    21300056: abstractTile_29.png
+    21300058: abstractTile_30.png
+    21300060: abstractTile_31.png
+    21300062: abstractTile_32.png
+    21300064: abstractTile_01
+    21300066: abstractTile_02
+    21300068: abstractTile_03
+    21300070: abstractTile_04
+    21300072: abstractTile_05
+    21300074: abstractTile_06
+    21300076: abstractTile_07
+    21300078: abstractTile_08
+    21300080: abstractTile_09
+    21300082: abstractTile_10
+    21300084: abstractTile_11
+    21300086: abstractTile_12
+    21300088: abstractTile_13
+    21300090: abstractTile_14
+    21300092: abstractTile_15
+    21300094: abstractTile_16
+    21300096: abstractTile_17
+    21300098: abstractTile_18
+    21300100: abstractTile_19
+    21300102: abstractTile_20
+    21300104: abstractTile_21
+    21300106: abstractTile_22
+    21300108: abstractTile_23
+    21300110: abstractTile_24
+    21300112: abstractTile_25
+    21300114: abstractTile_26
+    21300116: abstractTile_27
+    21300118: abstractTile_28
+    21300120: abstractTile_29
+    21300122: abstractTile_30
+    21300124: abstractTile_31
+    21300126: abstractTile_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 80
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: abstractTile_01
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_02
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_03
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_04
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_05
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_06
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_07
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_08
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_09
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 64}
+        - {x: -55.5, y: 42}
+        - {x: -55.5, y: -41}
+        - {x: -7.5, y: -64}
+        - {x: 13.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 35}
+        - {x: 20.5, y: 64}
+    - name: abstractTile_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 64}
+        - {x: -55.5, y: 42}
+        - {x: -55.5, y: -41}
+        - {x: -7.5, y: -64}
+        - {x: 13.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 35}
+        - {x: 20.5, y: 64}
+    - name: abstractTile_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 64}
+        - {x: -9.5, y: 64}
+        - {x: -55.5, y: 42}
+        - {x: -55.5, y: -46}
+        - {x: -11.5, y: -64}
+        - {x: 27.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 35}
+        - {x: 46.5, y: 41}
+    - name: abstractTile_25
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: -36}
+        - {x: -31.5, y: -64}
+        - {x: 19.5, y: -64}
+        - {x: 55.5, y: -55}
+        - {x: 55.5, y: 47}
+        - {x: 53.5, y: 53}
+        - {x: 8.5, y: 64}
+        - {x: -9.5, y: 64}
+        - {x: -55.5, y: 36}
+    - name: abstractTile_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: abstractTile_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

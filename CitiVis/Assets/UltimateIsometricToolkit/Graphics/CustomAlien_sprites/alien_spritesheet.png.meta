@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: 178f2e9275ffa7c46807161341296bf4
+timeCreated: 1479638637
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alien1_01
+    21300002: alien1_02
+    21300004: alien1_03
+    21300006: alien1_04
+    21300008: alien1_08
+    21300010: alien1_09
+    21300012: alien1_10
+    21300014: alien1_12
+    21300016: alien1_13
+    21300018: alien1_14
+    21300020: alien1_15
+    21300022: alien1_16
+    21300024: alien1_18
+    21300026: alien1_19
+    21300028: alien1_20
+    21300030: alien1_21
+    21300032: alien1_22
+    21300034: alien1_35
+    21300036: alien1_36
+    21300038: alien1_37
+    21300040: alien1_41
+    21300042: alien1_42
+    21300044: alien1_43
+    21300046: alien1_45
+    21300048: alien1_46
+    21300050: alien1_47
+    21300052: alien1_48
+    21300054: alien1_49
+    21300056: alien1_51
+    21300058: alien1_52
+    21300060: alien1_53
+    21300062: alien1_54
+    21300064: alien1_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alien1_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 38
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 1.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alien1_02
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 31}
+        - {x: -23, y: 26}
+        - {x: -23, y: -22}
+        - {x: -15, y: -32}
+        - {x: 23, y: -32}
+        - {x: 23, y: 23}
+        - {x: 14, y: 31}
+    - name: alien1_03
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 381
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: -23, y: 30}
+        - {x: -23, y: -21}
+        - {x: -10, y: -32}
+        - {x: 19, y: -32}
+        - {x: 23, y: -21}
+        - {x: 23, y: 30}
+        - {x: 20, y: 32}
+    - name: alien1_04
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 447
+        width: 50
+        height: 64
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 32}
+        - {x: -19, y: 32}
+        - {x: -24, y: 21}
+        - {x: -24, y: -20}
+        - {x: -16, y: -32}
+        - {x: 9, y: -32}
+        - {x: 22, y: -18}
+        - {x: 24, y: -7}
+        - {x: 24, y: 20}
+    - name: alien1_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 55
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -24, y: 18}
+        - {x: -25, y: 7}
+        - {x: -25, y: -12}
+        - {x: -18, y: -32}
+        - {x: 24, y: -32}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+        - {x: 22, y: 32}
+    - name: alien1_09
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 447
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: -23, y: 29}
+        - {x: -23, y: -20}
+        - {x: -13, y: -32}
+        - {x: 17, y: -32}
+        - {x: 23, y: -16}
+        - {x: 23, y: 30}
+        - {x: 20, y: 32}
+    - name: alien1_10
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 183
+        width: 49
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -25, y: 23}
+        - {x: -25, y: -19}
+        - {x: -20, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 23}
+        - {x: 13, y: 32}
+    - name: alien1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 447
+        width: 60
+        height: 64
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -24, y: 26}
+        - {x: -24, y: -13}
+        - {x: -18, y: -32}
+        - {x: 15, y: -32}
+        - {x: 24, y: -13}
+        - {x: 24, y: 28}
+        - {x: 12, y: 32}
+    - name: alien1_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 250
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 31}
+        - {x: -21, y: 29}
+        - {x: -23, y: 24}
+        - {x: -23, y: -20}
+        - {x: -12, y: -32}
+        - {x: 17, y: -32}
+        - {x: 23, y: -27}
+        - {x: 23, y: 23}
+        - {x: 15, y: 31}
+    - name: alien1_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 381
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -23, y: -19}
+        - {x: -18, y: -32}
+        - {x: 14, y: -32}
+        - {x: 23, y: -20}
+        - {x: 23, y: 29}
+        - {x: 15, y: 32}
+    - name: alien1_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 118
+        width: 47
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5106383, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 30}
+        - {x: 13, y: 31}
+        - {x: -13, y: 31}
+        - {x: -24, y: 19}
+        - {x: -24, y: -19}
+        - {x: -22, y: -20}
+        - {x: -16, y: -32}
+        - {x: 9, y: -32}
+        - {x: 22, y: -17}
+        - {x: 23, y: -14}
+        - {x: 23, y: 23}
+    - name: alien1_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 315
+        width: 51
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -23, y: -30}
+        - {x: -21, y: -32}
+        - {x: 10, y: -32}
+        - {x: 24, y: -22}
+        - {x: 24, y: 29}
+        - {x: 14, y: 32}
+    - name: alien1_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 316
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31}
+        - {x: -23, y: 23}
+        - {x: -23, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -24}
+        - {x: 23, y: 23}
+        - {x: 16, y: 31}
+    - name: alien1_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 117
+        width: 49
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5102041, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -25, y: 30}
+        - {x: -25, y: -22}
+        - {x: -18, y: -32}
+        - {x: 17, y: -32}
+        - {x: 24, y: -25}
+        - {x: 24, y: 18}
+        - {x: 17, y: 32}
+    - name: alien1_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 183
+        width: 49
+        height: 64
+      alignment: 9
+      pivot: {x: 0.53061223, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 32}
+        - {x: -24, y: 21}
+        - {x: -24, y: -16}
+        - {x: -23, y: -19}
+        - {x: -13, y: -32}
+        - {x: 12, y: -32}
+        - {x: 23, y: -25}
+        - {x: 23, y: 32}
+    - name: alien1_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -25, y: 20}
+        - {x: -25, y: -23}
+        - {x: -14, y: -31}
+        - {x: -6, y: -32}
+        - {x: 17, y: -32}
+        - {x: 25, y: -16}
+        - {x: 25, y: 19}
+        - {x: 18, y: 32}
+    - name: alien1_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 382
+        width: 46
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 31}
+        - {x: -23, y: -2}
+        - {x: -22, y: -4}
+        - {x: -23, y: -20}
+        - {x: -14, y: -32}
+        - {x: 17, y: -32}
+        - {x: 23, y: -23}
+        - {x: 23, y: 31}
+    - name: alien1_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 315
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.45614034, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -24, y: 20}
+        - {x: -24, y: -16}
+        - {x: -18, y: -32}
+        - {x: 19, y: -32}
+        - {x: 24, y: -17}
+        - {x: 24, y: 31}
+        - {x: 20, y: 32}
+    - name: alien1_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 249
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -24, y: 27}
+        - {x: -24, y: -19}
+        - {x: -19, y: -32}
+        - {x: 15, y: -32}
+        - {x: 23, y: -25}
+        - {x: 23, y: 26}
+        - {x: 16, y: 32}
+    - name: alien1_37
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 381
+        width: 51
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4509804, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 32}
+        - {x: -23, y: -22}
+        - {x: -11, y: -32}
+        - {x: 12, y: -32}
+        - {x: 24, y: -23}
+        - {x: 24, y: 32}
+    - name: alien1_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 449
+        width: 53
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5471698, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 30}
+        - {x: -25, y: 26}
+        - {x: -25, y: -18}
+        - {x: -18, y: -32}
+        - {x: 23, y: -32}
+        - {x: 24, y: -29}
+        - {x: 24, y: 26}
+        - {x: 21, y: 30}
+    - name: alien1_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 183
+        width: 55
+        height: 64
+      alignment: 9
+      pivot: {x: 0.58181816, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 32}
+        - {x: -17, y: 31}
+        - {x: -24, y: 20}
+        - {x: -24, y: -14}
+        - {x: -12, y: -32}
+        - {x: 23, y: -32}
+        - {x: 23, y: 29}
+        - {x: 16, y: 32}
+    - name: alien1_43
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 121
+        width: 48
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 30}
+        - {x: -24, y: 27}
+        - {x: -24, y: -24}
+        - {x: -18, y: -31}
+        - {x: 16, y: -31}
+        - {x: 24, y: -20}
+        - {x: 24, y: 15}
+        - {x: 19, y: 30}
+    - name: alien1_45
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 447
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 32}
+        - {x: -23, y: 26}
+        - {x: -23, y: -27}
+        - {x: -20, y: -32}
+        - {x: 18, y: -32}
+        - {x: 23, y: -30}
+        - {x: 23, y: 30}
+        - {x: 18, y: 32}
+    - name: alien1_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 381
+        width: 58
+        height: 64
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 32}
+        - {x: -16, y: 32}
+        - {x: -24, y: 24}
+        - {x: -24, y: -9}
+        - {x: -23, y: -17}
+        - {x: -8, y: -31}
+        - {x: -5, y: -32}
+        - {x: 11, y: -32}
+        - {x: 24, y: -15}
+        - {x: 24, y: 20}
+        - {x: 20, y: 26}
+    - name: alien1_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 315
+        width: 48
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5208333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 32}
+        - {x: -24, y: -24}
+        - {x: -10, y: -32}
+        - {x: 22, y: -32}
+        - {x: 23, y: -30}
+        - {x: 23, y: 21}
+        - {x: 15, y: 32}
+    - name: alien1_48
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 32}
+        - {x: -24, y: -17}
+        - {x: -12, y: -32}
+        - {x: 10, y: -32}
+        - {x: 24, y: -21}
+        - {x: 24, y: 25}
+        - {x: 19, y: 32}
+    - name: alien1_49
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 117
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 32}
+        - {x: -17, y: 32}
+        - {x: -23, y: 26}
+        - {x: -23, y: -21}
+        - {x: -21, y: -29}
+        - {x: -14, y: -32}
+        - {x: 7, y: -32}
+        - {x: 8, y: -31}
+        - {x: 23, y: -21}
+        - {x: 23, y: 22}
+    - name: alien1_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 52
+        width: 51
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 30}
+        - {x: -14, y: 30}
+        - {x: -25, y: 21}
+        - {x: -25, y: -23}
+        - {x: -18, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 25}
+        - {x: 18, y: 29}
+    - name: alien1_52
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 48
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 30}
+        - {x: -24, y: 26}
+        - {x: -24, y: -10}
+        - {x: -20, y: -15}
+        - {x: -17, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 23}
+        - {x: 19, y: 30}
+    - name: alien1_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 55
+        height: 64
+      alignment: 9
+      pivot: {x: 0.58181816, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -24, y: 30}
+        - {x: -24, y: -6}
+        - {x: -17, y: -32}
+        - {x: 17, y: -32}
+        - {x: 23, y: -27}
+        - {x: 23, y: 28}
+        - {x: 15, y: 32}
+    - name: alien1_54
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 249
+        width: 52
+        height: 64
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31}
+        - {x: -25, y: 21}
+        - {x: -25, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 22}
+        - {x: 11, y: 31}
+    - name: alien1_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 187
+        width: 48
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52459013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 29}
+        - {x: -18, y: 29}
+        - {x: -24, y: 23}
+        - {x: -24, y: -28}
+        - {x: -19, y: -32}
+        - {x: 21, y: -32}
+        - {x: 24, y: -24}
+        - {x: 24, y: 14}
+        - {x: 23, y: 20}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: a8ec2aa58a5cf99438e12c73c541ec3b
+timeCreated: 1479639198
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alienPink.png
+    21300002: alienPink_climb1.png
+    21300004: alienPink_climb2.png
+    21300006: alienPink_duck.png
+    21300008: alienPink_hurt.png
+    21300010: alienPink_jump.png
+    21300012: alienPink_stand.png
+    21300014: alienPink_swim1.png
+    21300016: alienPink_swim2.png
+    21300018: alienPink_walk1.png
+    21300020: alienPink_walk2.png
+    21300022: alienPink
+    21300024: alienPink_climb1
+    21300026: alienPink_climb2
+    21300028: alienPink_duck
+    21300030: alienPink_hurt
+    21300032: alienPink_jump
+    21300034: alienPink_stand
+    21300036: alienPink_swim1
+    21300038: alienPink_swim2
+    21300040: alienPink_walk1
+    21300042: alienPink_walk2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alienPink
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 328
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 46}
+        - {x: -23, y: 44}
+        - {x: -33, y: 30}
+        - {x: -33, y: -31}
+        - {x: -22, y: -46}
+        - {x: 22, y: -46}
+        - {x: 33, y: -32}
+        - {x: 33, y: 33}
+        - {x: 19, y: 46}
+    - name: alienPink_climb1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 420
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 46}
+        - {x: -33, y: 44}
+        - {x: -33, y: -36}
+        - {x: -24, y: -46}
+        - {x: 16, y: -46}
+        - {x: 24, y: -45}
+        - {x: 33, y: -37}
+        - {x: 33, y: 46}
+    - name: alienPink_climb2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 41
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 46}
+        - {x: -33, y: 44}
+        - {x: -33, y: -36}
+        - {x: -31, y: -46}
+        - {x: 25, y: -46}
+        - {x: 33, y: -10}
+        - {x: 33, y: 37}
+        - {x: 28, y: 46}
+    - name: alienPink_duck
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 61
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 33.5}
+        - {x: 17.5, y: 35.5}
+        - {x: -14.5, y: 35.5}
+        - {x: -25.5, y: 30.5}
+        - {x: -34.5, y: 13.5}
+        - {x: -34.5, y: -32.5}
+        - {x: -33.5, y: -35.5}
+        - {x: 31.5, y: -35.5}
+        - {x: 34.5, y: -18.5}
+        - {x: 34.5, y: 21.5}
+    - name: alienPink_hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 46}
+        - {x: -34.5, y: 42}
+        - {x: -34.5, y: -28}
+        - {x: -27.5, y: -46}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 38}
+        - {x: 23.5, y: 46}
+    - name: alienPink_jump
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 133
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 46.5}
+        - {x: -33.5, y: 46.5}
+        - {x: -33.5, y: -44.5}
+        - {x: -26.5, y: -46.5}
+        - {x: 26.5, y: -46.5}
+        - {x: 33.5, y: -40.5}
+        - {x: 33.5, y: 40.5}
+    - name: alienPink_stand
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 41
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 46}
+        - {x: -33, y: 41}
+        - {x: -33, y: -38}
+        - {x: -28, y: -46}
+        - {x: 28, y: -46}
+        - {x: 33, y: -30}
+        - {x: 33, y: 43}
+        - {x: 29, y: 46}
+    - name: alienPink_swim1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: -47.5}
+        - {x: 23.5, y: -47.5}
+        - {x: 34.5, y: -27.5}
+        - {x: 34.5, y: 44.5}
+        - {x: 32.5, y: 47.5}
+    - name: alienPink_swim2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 48.5}
+        - {x: -35, y: 45.5}
+        - {x: -35, y: -48.5}
+        - {x: 17, y: -48.5}
+        - {x: 35, y: -28.5}
+        - {x: 35, y: 46.5}
+        - {x: 30, y: 48.5}
+    - name: alienPink_walk1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 226
+        width: 68
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 46.5}
+        - {x: -32, y: 36.5}
+        - {x: -34, y: 26.5}
+        - {x: -34, y: -37.5}
+        - {x: -26, y: -46.5}
+        - {x: 34, y: -46.5}
+        - {x: 34, y: 44.5}
+        - {x: 28, y: 46.5}
+    - name: alienPink_walk2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 48}
+        - {x: -35, y: 28}
+        - {x: -35, y: -48}
+        - {x: 19, y: -48}
+        - {x: 35, y: -38}
+        - {x: 35, y: 36}
+        - {x: 21, y: 48}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

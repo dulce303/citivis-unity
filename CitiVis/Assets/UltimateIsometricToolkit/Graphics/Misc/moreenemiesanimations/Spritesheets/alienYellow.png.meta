@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 7971d06276c70a44795239620bae9997
+timeCreated: 1479639210
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alienYellow.png
+    21300002: alienYellow_climb1.png
+    21300004: alienYellow_climb2.png
+    21300006: alienYellow_duck.png
+    21300008: alienYellow_hurt.png
+    21300010: alienYellow_jump.png
+    21300012: alienYellow_stand.png
+    21300014: alienYellow_swim1.png
+    21300016: alienYellow_swim2.png
+    21300018: alienYellow_walk1.png
+    21300020: alienYellow_walk2.png
+    21300022: alienYellow
+    21300024: alienYellow_climb1
+    21300026: alienYellow_climb2
+    21300028: alienYellow_duck
+    21300030: alienYellow_hurt
+    21300032: alienYellow_jump
+    21300034: alienYellow_stand
+    21300036: alienYellow_swim1
+    21300038: alienYellow_swim2
+    21300040: alienYellow_walk1
+    21300042: alienYellow_walk2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alienYellow
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 175
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 41}
+        - {x: -33, y: 34}
+        - {x: -33, y: -37}
+        - {x: -28, y: -41}
+        - {x: 21, y: -41}
+        - {x: 33, y: -30}
+        - {x: 33, y: 27}
+        - {x: 19, y: 41}
+    - name: alienYellow_climb1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 257
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 41}
+        - {x: -33, y: -23}
+        - {x: -21, y: -41}
+        - {x: 10, y: -41}
+        - {x: 33, y: -35}
+        - {x: 33, y: 36}
+        - {x: 31, y: 41}
+    - name: alienYellow_climb2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 430
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 41}
+        - {x: -33, y: 28}
+        - {x: -33, y: -20}
+        - {x: -28, y: -34}
+        - {x: -26, y: -41}
+        - {x: 24, y: -41}
+        - {x: 33, y: -9}
+        - {x: 33, y: 34}
+        - {x: 29, y: 41}
+    - name: alienYellow_duck
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 33.5}
+        - {x: -34, y: 20.5}
+        - {x: -34, y: -33.5}
+        - {x: 34, y: -33.5}
+        - {x: 34, y: 22.5}
+        - {x: 21, y: 33.5}
+    - name: alienYellow_hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 40.5}
+        - {x: -34.5, y: 26.5}
+        - {x: -34.5, y: -26.5}
+        - {x: -10.5, y: -40.5}
+        - {x: 34.5, y: -40.5}
+        - {x: 34.5, y: 36.5}
+        - {x: 21.5, y: 40.5}
+    - name: alienYellow_jump
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 90
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 41.5}
+        - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -37.5}
+        - {x: -32.5, y: -41.5}
+        - {x: 33.5, y: -41.5}
+        - {x: 33.5, y: 40.5}
+        - {x: 32.5, y: 41.5}
+    - name: alienYellow_stand
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 8
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 41}
+        - {x: -33, y: 35}
+        - {x: -33, y: -41}
+        - {x: 22, y: -41}
+        - {x: 33, y: -34}
+        - {x: 33, y: 32}
+        - {x: 28, y: 41}
+    - name: alienYellow_swim1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 42.5}
+        - {x: -29.5, y: 42.5}
+        - {x: -34.5, y: 33.5}
+        - {x: -34.5, y: -42.5}
+        - {x: 13.5, y: -42.5}
+        - {x: 18.5, y: -38.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 27.5}
+    - name: alienYellow_swim2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 43.5}
+        - {x: -35, y: 25.5}
+        - {x: -35, y: -26.5}
+        - {x: -33, y: -43.5}
+        - {x: 25, y: -43.5}
+        - {x: 35, y: -31.5}
+        - {x: 35, y: 30.5}
+        - {x: 31, y: 43.5}
+    - name: alienYellow_walk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 68
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 41.5}
+        - {x: -34, y: 40.5}
+        - {x: -34, y: -41.5}
+        - {x: 34, y: -41.5}
+        - {x: 34, y: 37.5}
+        - {x: 25, y: 41.5}
+    - name: alienYellow_walk2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 43}
+        - {x: -35, y: 23}
+        - {x: -35, y: -16}
+        - {x: -29, y: -16}
+        - {x: -10, y: -43}
+        - {x: 35, y: -43}
+        - {x: 35, y: 43}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

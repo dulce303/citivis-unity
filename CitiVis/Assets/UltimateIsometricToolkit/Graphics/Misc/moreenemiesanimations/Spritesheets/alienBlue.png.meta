@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: b81fa80e86e62a040a5c6370217028ac
+timeCreated: 1479639175
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alienBlue.png
+    21300002: alienBlue_climb1.png
+    21300004: alienBlue_climb2.png
+    21300006: alienBlue_duck.png
+    21300008: alienBlue_hurt.png
+    21300010: alienBlue_jump.png
+    21300012: alienBlue_stand.png
+    21300014: alienBlue_swim1.png
+    21300016: alienBlue_swim2.png
+    21300018: alienBlue_walk1.png
+    21300020: alienBlue_walk2.png
+    21300022: alienBlue
+    21300024: alienBlue_climb1
+    21300026: alienBlue_climb2
+    21300028: alienBlue_duck
+    21300030: alienBlue_hurt
+    21300032: alienBlue_jump
+    21300034: alienBlue_stand
+    21300036: alienBlue_swim1
+    21300038: alienBlue_swim2
+    21300040: alienBlue_walk1
+    21300042: alienBlue_walk2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alienBlue
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 420
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 46}
+        - {x: -33, y: 41}
+        - {x: -33, y: -46}
+        - {x: 33, y: -46}
+        - {x: 33, y: 35}
+        - {x: 23, y: 46}
+    - name: alienBlue_climb1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 323
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 46}
+        - {x: -33, y: 44}
+        - {x: -33, y: -36}
+        - {x: -24, y: -46}
+        - {x: 16, y: -46}
+        - {x: 24, y: -45}
+        - {x: 33, y: -37}
+        - {x: 33, y: 46}
+    - name: alienBlue_climb2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 231
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 46}
+        - {x: -33, y: 44}
+        - {x: -33, y: -36}
+        - {x: -31, y: -46}
+        - {x: 25, y: -46}
+        - {x: 33, y: -10}
+        - {x: 33, y: 37}
+        - {x: 28, y: 46}
+    - name: alienBlue_duck
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 36}
+        - {x: -22.5, y: 35}
+        - {x: -33.5, y: 18}
+        - {x: -33.5, y: -36}
+        - {x: 28.5, y: -36}
+        - {x: 33.5, y: -16}
+        - {x: 33.5, y: 23}
+        - {x: 20.5, y: 36}
+    - name: alienBlue_hurt
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 46}
+        - {x: -22.5, y: 46}
+        - {x: -33.5, y: 32}
+        - {x: -33.5, y: -35}
+        - {x: -6.5, y: -46}
+        - {x: 27.5, y: -46}
+        - {x: 33.5, y: -32}
+        - {x: 33.5, y: 33}
+    - name: alienBlue_jump
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 227
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 46.5}
+        - {x: -33, y: 41.5}
+        - {x: -33, y: -46.5}
+        - {x: 31, y: -46.5}
+        - {x: 33, y: -43.5}
+        - {x: 33, y: 38.5}
+        - {x: 29, y: 46.5}
+    - name: alienBlue_stand
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 42
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: -46}
+        - {x: 33, y: -46}
+        - {x: 33, y: 46}
+        - {x: -23, y: 46}
+        - {x: -33, y: 38}
+    - name: alienBlue_swim1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 47.5}
+        - {x: -34.5, y: -47.5}
+        - {x: 23.5, y: -47.5}
+        - {x: 34.5, y: -27.5}
+        - {x: 34.5, y: 44.5}
+        - {x: 32.5, y: 47.5}
+    - name: alienBlue_swim2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 48.5}
+        - {x: -35, y: 45.5}
+        - {x: -35, y: -48.5}
+        - {x: 17, y: -48.5}
+        - {x: 35, y: -28.5}
+        - {x: 35, y: 46.5}
+        - {x: 30, y: 48.5}
+    - name: alienBlue_walk1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 134
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 46.5}
+        - {x: -33, y: 34.5}
+        - {x: -33, y: -39.5}
+        - {x: -25, y: -46.5}
+        - {x: 32, y: -46.5}
+        - {x: 33, y: -43.5}
+        - {x: 33, y: 31.5}
+        - {x: 23, y: 46.5}
+    - name: alienBlue_walk2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 48}
+        - {x: -33.5, y: 37}
+        - {x: -33.5, y: -39}
+        - {x: -13.5, y: -48}
+        - {x: 18.5, y: -48}
+        - {x: 33.5, y: -33}
+        - {x: 33.5, y: 33}
+        - {x: 24.5, y: 48}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

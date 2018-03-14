@@ -1,0 +1,1110 @@
+fileFormatVersion: 2
+guid: 71285029d6034b14591391e0df47c14c
+timeCreated: 1479568578
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: platformerTile_01.png
+    21300002: platformerTile_02.png
+    21300004: platformerTile_03.png
+    21300006: platformerTile_04.png
+    21300008: platformerTile_05.png
+    21300010: platformerTile_06.png
+    21300012: platformerTile_07.png
+    21300014: platformerTile_08.png
+    21300016: platformerTile_09.png
+    21300018: platformerTile_10.png
+    21300020: platformerTile_11.png
+    21300022: platformerTile_12.png
+    21300024: platformerTile_13.png
+    21300026: platformerTile_14.png
+    21300028: platformerTile_15.png
+    21300030: platformerTile_16.png
+    21300032: platformerTile_17.png
+    21300034: platformerTile_18.png
+    21300036: platformerTile_19.png
+    21300038: platformerTile_20.png
+    21300040: platformerTile_21.png
+    21300042: platformerTile_22.png
+    21300044: platformerTile_23.png
+    21300046: platformerTile_24.png
+    21300048: platformerTile_25.png
+    21300050: platformerTile_26.png
+    21300052: platformerTile_27.png
+    21300054: platformerTile_28.png
+    21300056: platformerTile_29.png
+    21300058: platformerTile_30.png
+    21300060: platformerTile_31.png
+    21300062: platformerTile_32.png
+    21300064: platformerTile_33.png
+    21300066: platformerTile_34.png
+    21300068: platformerTile_35.png
+    21300070: platformerTile_36.png
+    21300072: platformerTile_37.png
+    21300074: platformerTile_38.png
+    21300076: platformerTile_39.png
+    21300078: platformerTile_40.png
+    21300080: platformerTile_41.png
+    21300082: platformerTile_42.png
+    21300084: platformerTile_43.png
+    21300086: platformerTile_44.png
+    21300088: platformerTile_45.png
+    21300090: platformerTile_46.png
+    21300092: platformerTile_47.png
+    21300094: platformerTile_48.png
+    21300096: platformerTile_01
+    21300098: platformerTile_02
+    21300100: platformerTile_03
+    21300102: platformerTile_04
+    21300104: platformerTile_05
+    21300106: platformerTile_06
+    21300108: platformerTile_07
+    21300110: platformerTile_08
+    21300112: platformerTile_09
+    21300114: platformerTile_10
+    21300116: platformerTile_11
+    21300118: platformerTile_12
+    21300120: platformerTile_13
+    21300122: platformerTile_14
+    21300124: platformerTile_15
+    21300126: platformerTile_16
+    21300128: platformerTile_17
+    21300130: platformerTile_18
+    21300132: platformerTile_19
+    21300134: platformerTile_20
+    21300136: platformerTile_21
+    21300138: platformerTile_22
+    21300140: platformerTile_23
+    21300142: platformerTile_24
+    21300144: platformerTile_25
+    21300146: platformerTile_26
+    21300148: platformerTile_27
+    21300150: platformerTile_28
+    21300152: platformerTile_29
+    21300154: platformerTile_30
+    21300156: platformerTile_31
+    21300158: platformerTile_32
+    21300160: platformerTile_33
+    21300162: platformerTile_34
+    21300164: platformerTile_35
+    21300166: platformerTile_36
+    21300168: platformerTile_37
+    21300170: platformerTile_38
+    21300172: platformerTile_39
+    21300174: platformerTile_40
+    21300176: platformerTile_41
+    21300178: platformerTile_42
+    21300180: platformerTile_43
+    21300182: platformerTile_44
+    21300184: platformerTile_45
+    21300186: platformerTile_46
+    21300188: platformerTile_47
+    21300190: platformerTile_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 80
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: platformerTile_01
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_02
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_03
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_04
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_05
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_06
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_07
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_08
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_09
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_12
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_25
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 64}
+        - {x: -55.5, y: 41}
+        - {x: -55.5, y: -48}
+        - {x: -12.5, y: -64}
+        - {x: 26.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 36}
+        - {x: 14.5, y: 64}
+    - name: platformerTile_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 64}
+        - {x: -55.5, y: 41}
+        - {x: -55.5, y: -48}
+        - {x: -12.5, y: -64}
+        - {x: 26.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 36}
+        - {x: 14.5, y: 64}
+    - name: platformerTile_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 64}
+        - {x: -55.5, y: 41}
+        - {x: -55.5, y: -48}
+        - {x: -12.5, y: -64}
+        - {x: 26.5, y: -64}
+        - {x: 55.5, y: -36}
+        - {x: 55.5, y: 36}
+        - {x: 14.5, y: 64}
+    - name: platformerTile_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    - name: platformerTile_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 64}
+        - {x: -6.5, y: 64}
+        - {x: -55.5, y: 36}
+        - {x: -55.5, y: -52}
+        - {x: -18.5, y: -64}
+        - {x: 41.5, y: -64}
+        - {x: 55.5, y: -53}
+        - {x: 55.5, y: 40}
+        - {x: 53.5, y: 53}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
