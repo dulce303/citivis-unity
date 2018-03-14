@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ExampleStreamingFixed.unity
+- path: Assets/Watson/Examples/ServiceExamples/ExampleStreaming.unity
   isLoaded: 1
   isActive: 1
