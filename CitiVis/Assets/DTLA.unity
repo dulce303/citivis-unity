@@ -183,8 +183,9 @@ GameObject:
   - component: {fileID: 151746212}
   - component: {fileID: 151746211}
   - component: {fileID: 151746210}
-  - component: {fileID: 151746215}
   - component: {fileID: 151746214}
+  - component: {fileID: 151746216}
+  - component: {fileID: 151746215}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -299,9 +300,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 151746209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e35d9c482c6e5c46b1a7139b3171390, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f6c4e64fade819488b170ddd48213a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &151746216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 151746209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12562b20a49ba6c42af20239d24500ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movie: {fileID: 0}
 --- !u!1001 &347368596
 Prefab:
   m_ObjectHideFlags: 0
@@ -496,6 +509,8 @@ GameObject:
   - component: {fileID: 902973624}
   - component: {fileID: 902973629}
   - component: {fileID: 902973628}
+  - component: {fileID: 902973631}
+  - component: {fileID: 902973630}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -576,7 +591,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 902973623}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 454ae132ba8e4ef47a6f6b7f455bf561, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 5022e21b88469804492b6c2302a06ca7, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -613,6 +628,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e35d9c482c6e5c46b1a7139b3171390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &902973630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 902973623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6c4e64fade819488b170ddd48213a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &902973631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 902973623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12562b20a49ba6c42af20239d24500ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movie: {fileID: 0}
 --- !u!1001 &1362506723
 Prefab:
   m_ObjectHideFlags: 0
@@ -1174,6 +1212,90 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1362506727 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: b8c809419f82e5a469a8ed9a5759d9b7, type: 3}
+  m_PrefabInternal: {fileID: 1362506723}
+--- !u!82 &1362506728
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362506727}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b39055e9022ae2141a7826ad9ce35ba2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1498693140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,6 +1452,9 @@ GameObject:
   - component: {fileID: 1551023399}
   - component: {fileID: 1551023398}
   - component: {fileID: 1551023402}
+  - component: {fileID: 1551023405}
+  - component: {fileID: 1551023404}
+  - component: {fileID: 1551023403}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1411,9 +1536,65 @@ MonoBehaviour:
   m_GameObject: {fileID: 1551023397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e35d9c482c6e5c46b1a7139b3171390, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1551023403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551023397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6c4e64fade819488b170ddd48213a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!328 &1551023404
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551023397}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 5022e21b88469804492b6c2302a06ca7, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+--- !u!114 &1551023405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1551023397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12562b20a49ba6c42af20239d24500ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movie: {fileID: 0}
 --- !u!1 &1695608155
 GameObject:
   m_ObjectHideFlags: 0
