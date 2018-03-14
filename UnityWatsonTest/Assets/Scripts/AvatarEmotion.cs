@@ -41,59 +41,44 @@ using System.Text.RegularExpressions;
 
 public class AvatarEmotion : MonoBehaviour
 {
-
+    // keys to speech to text engine
     private string _username_STT = "0080f8de-6a51-4cb6-b7ca-74dfc91e46a8";     private string _password_STT = "hQqTQuoIgYBj";
     private string _url_STT = "https://stream.watsonplatform.net/speech-to-text/api";
-
-    public Text ResultsField;
-    public Text EmotionText;
-
-    public float emotion_threshold;
-
-    private SpeechToText _speechToText;
-
-    // TONE ZONE
-    //  "username": "7f968f2a-4935-440a-96b2-144471fe4c5b",
-    //  "password": "g2tz4PY2xqNs"
-
+    // keys to watson tone analysis engine
     private string _username_TONE = "7f968f2a-4935-440a-96b2-144471fe4c5b";
     private string _password_TONE = "g2tz4PY2xqNs";
     private string _url_TONE = "https://gateway.watsonplatform.net/tone-analyzer/api";
 
 
-    private ToneAnalyzer _toneAnalyzer;
-    private string _toneAnalyzerVersionDate = "2017-05-26";
-    private string _stringToTestTone1 = "START AND TEST - But this totally sucks! I hate beans and liver!";
-    private string _stringToTestTone2 = "SECOND TEST - Failed Test Sucks";
-    private bool _analyzeToneTested = false;
+    // text fields that get the values from speech->text and toneAnalysis
+    public Text ResultsField;
+    public Text EmotionText;
 
+    // value above which we do something with the linked objects
+    public float emotion_threshold;
 
-
-    // emotive dashboard rendererrs 5 fields
-    public MeshRenderer joyBarRenderer;
-    public MeshRenderer sadnessBarRenderer;
-    public MeshRenderer fearBarRenderer;
-    public MeshRenderer disgustBarRenderer;
-    public MeshRenderer angerBarRenderer;
-
+    // links to objects that change per Tone
     public MeshRenderer AvatarRenderer; // droid R2D2 wannabe
 
+    // emotive dashboard rendererrs 5 fields
+    public MeshRenderer joy_BarRender;
+    public MeshRenderer sadness_BarRender;
+    public MeshRenderer fear_BarRender;
+    public MeshRenderer disgust_BarRender;
+    public MeshRenderer anger_BarRender;
+
     // Over the shoulder emotional spheres
-    public MeshRenderer sphere_emo_joyRenderer;
-    public MeshRenderer sphere_emo_angerRenderer;
-    public MeshRenderer sphere_emo_fearRenderer;
-    public MeshRenderer sphere_emo_disgustRenderer;
-    public MeshRenderer sphere_emo_sadnessRenderer;
+    public MeshRenderer joy_SphereRender;
+    public MeshRenderer anger_SphereRenderer;
+    public MeshRenderer fear_SphereRenderer;
+    public MeshRenderer disgust_SphereRenderer;
+    public MeshRenderer sadness_SphereRenderer;
 
-
-    // Tin man is ethanbot
-    //public MeshRenderer AvatarRenderer; // tinman  - ethan stock character with metal body - for the SCALE and LOCAION
-    public MeshRenderer AvatarHead; // tinman just the helm - for color
 
     // Characterization
-    public MeshRenderer cyl1AnalyticalRenderer;
-    public MeshRenderer cyl2ConfidentRenderer;
-    public MeshRenderer cyl3TentativeRenderer;
+    public MeshRenderer analyticalRenderer;
+    public MeshRenderer confidentRenderer;
+    public MeshRenderer tentativeRenderer;
 
     public Material original_material;
     public Material red_material;
@@ -108,6 +93,16 @@ public class AvatarEmotion : MonoBehaviour
     private AudioClip _recording = null;
     private int _recordingBufferSize = 1;
     private int _recordingHZ = 22050;
+
+    private SpeechToText _speechToText;
+
+
+    private ToneAnalyzer _toneAnalyzer;
+    private string _toneAnalyzerVersionDate = "2017-05-26";
+    private string _stringToTestTone1 = "START AND TEST - But this totally sucks! I hate beans and liver!";
+    private string _stringToTestTone2 = "SECOND TEST - Failed Test Sucks";
+    private bool _analyzeToneTested = false;
+
 
     void Start()
     {
@@ -127,11 +122,11 @@ public class AvatarEmotion : MonoBehaviour
         _toneAnalyzer = new ToneAnalyzer(credentials_TONE);
         _toneAnalyzer.VersionDate = _toneAnalyzerVersionDate;
 
-        joyBarRenderer.material = yellow_material;
-        sadnessBarRenderer.material = blue_material;
-        fearBarRenderer.material = purple_material;
-        disgustBarRenderer.material = green_material;
-        angerBarRenderer.material = red_material;
+        joy_BarRender.material = yellow_material;
+        sadness_BarRender.material = blue_material;
+        fear_BarRender.material = purple_material;
+        disgust_BarRender.material = green_material;
+        anger_BarRender.material = red_material;
 
         emotion_threshold = 0.75f;  // for loose demo - above 75% seems to work well - may vary by signal
 
@@ -291,10 +286,9 @@ public class AvatarEmotion : MonoBehaviour
             EmotionText.text = "Anger";
             AvatarRenderer.material = red_material;
             AvatarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            AvatarHead.material = red_material;
 
-            angerBarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            sphere_emo_angerRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
+            anger_BarRender.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            anger_SphereRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
         }
         else if (resp.document_tone.tone_categories[0].tones[1].score > emotion_threshold)
         {
@@ -302,10 +296,9 @@ public class AvatarEmotion : MonoBehaviour
             AvatarRenderer.material = green_material;
 
             AvatarRenderer.transform.localScale -= new Vector3(0.1F, 0.1F, 0.1F);
-            AvatarHead.material = green_material;
 
-            disgustBarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            sphere_emo_disgustRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
+            disgust_BarRender.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            disgust_SphereRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
 
         }
         else if (resp.document_tone.tone_categories[0].tones[2].score > emotion_threshold)
@@ -313,10 +306,9 @@ public class AvatarEmotion : MonoBehaviour
             EmotionText.text = "Fear";
             AvatarRenderer.material = purple_material;
             AvatarRenderer.transform.localScale -= new Vector3(0.1F, 0.1F, 0.1F);
-            AvatarHead.material = purple_material;
 
-            fearBarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            sphere_emo_fearRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
+            fear_BarRender.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            fear_SphereRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
 
         }
         else if (resp.document_tone.tone_categories[0].tones[3].score > emotion_threshold)
@@ -324,21 +316,18 @@ public class AvatarEmotion : MonoBehaviour
             EmotionText.text = "Joy";
             AvatarRenderer.material = yellow_material;
             AvatarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            AvatarHead.material = yellow_material;
 
-            sphere_emo_joyRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
-            joyBarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            joy_SphereRender.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
+            joy_BarRender.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
         }
         else if (resp.document_tone.tone_categories[0].tones[4].score > emotion_threshold)
         {
             EmotionText.text = "Sadness";
             AvatarRenderer.material = blue_material;
             AvatarRenderer.transform.localScale -= new Vector3(0.1F, 0.1F, 0.1F);
-            AvatarRenderer.material = blue_material;
-            AvatarHead.material = blue_material;
 
-            sadnessBarRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
-            sphere_emo_sadnessRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
+            sadness_BarRender.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            sadness_SphereRenderer.transform.localScale += new Vector3(0.025F, 0.025F, 0.025F);
 
         }
 
@@ -347,19 +336,19 @@ public class AvatarEmotion : MonoBehaviour
         {
             EmotionText.text = "Analytical";
             AvatarRenderer.material = white_material;
-            cyl1AnalyticalRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            analyticalRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
         }
         else if (resp.document_tone.tone_categories[1].tones[1].score > emotion_threshold)
         {
             EmotionText.text = "Confident";
             AvatarRenderer.material = white_material;
-            cyl2ConfidentRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            confidentRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
         }
         else if (resp.document_tone.tone_categories[1].tones[2].score > emotion_threshold)
         {
             EmotionText.text = "Tentative";
             AvatarRenderer.material = white_material;
-            cyl3TentativeRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
+            tentativeRenderer.transform.localScale += new Vector3(0.1F, 0.1F, 0.1F);
         }
 
 
@@ -448,30 +437,30 @@ public class AvatarEmotion : MonoBehaviour
 
     private void PanicAction()
     {
-        sphere_emo_sadnessRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        sphere_emo_angerRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        sphere_emo_disgustRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        sphere_emo_fearRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        sphere_emo_joyRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        sadness_SphereRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        anger_SphereRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        disgust_SphereRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        fear_SphereRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        joy_SphereRender.transform.localScale = new Vector3(1F, 1F, 1F);
     }
 
     private void ResetAction()
     {
-        cyl1AnalyticalRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        cyl2ConfidentRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        cyl3TentativeRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        joyBarRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        sadnessBarRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        fearBarRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        disgustBarRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
-        angerBarRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        analyticalRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        confidentRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        tentativeRenderer.transform.localScale = new Vector3(1F, 1F, 1F);
+        joy_BarRender.transform.localScale = new Vector3(1F, 1F, 1F);
+        sadness_BarRender.transform.localScale = new Vector3(1F, 1F, 1F);
+        fear_BarRender.transform.localScale = new Vector3(1F, 1F, 1F);
+        disgust_BarRender.transform.localScale = new Vector3(1F, 1F, 1F);
+        anger_BarRender.transform.localScale = new Vector3(1F, 1F, 1F);
         AvatarRenderer.material = white_material;
 
-        sphere_emo_sadnessRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
-        sphere_emo_angerRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
-        sphere_emo_disgustRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
-        sphere_emo_fearRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
-        sphere_emo_joyRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
+        sadness_SphereRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
+        anger_SphereRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
+        disgust_SphereRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
+        fear_SphereRenderer.transform.localScale = new Vector3(.075F, .075F, .075F);
+        joy_SphereRender.transform.localScale = new Vector3(.075F, .075F, .075F);
 
         AvatarRenderer.transform.localScale = new Vector3(10F, 10F, 10F);
     }
