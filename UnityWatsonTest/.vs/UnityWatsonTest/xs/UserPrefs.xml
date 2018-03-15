@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{6A5C2435-F37A-9635-0298-3DDB1D8DA51A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AvatarEmotion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WatsonServiceConnection.cs">
     <Files>
-      <File FileName="Assets/Scripts/AvatarEmotion.cs" Line="201" Column="25" />
+      <File FileName="Assets/Scripts/AvatarEmotion.cs" Line="107" Column="1" />
+      <File FileName="Assets/Scripts/WatsonServiceConnection.cs" Line="60" Column="29" />
+      <File FileName="Assets/Scripts/EmotionHandler.cs" Line="117" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

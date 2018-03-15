@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/AvatarScriptedScene.unity
+- path: Assets/Scenes/HandleToneScene.unity
   isLoaded: 1
   isActive: 1
