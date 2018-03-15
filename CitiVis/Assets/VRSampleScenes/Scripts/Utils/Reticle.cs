@@ -57,7 +57,7 @@ namespace VRStandardAssets.Utils
             m_ReticleTransform.position = m_Camera.position + m_Camera.forward * m_DefaultDistance;
 
             // Set the scale based on the original and the distance from the camera.
-            m_ReticleTransform.localScale = m_OriginalScale * m_DefaultDistance;
+            //m_ReticleTransform.localScale = m_OriginalScale * m_DefaultDistance;
 
             // The rotation should just be the default.
             m_ReticleTransform.localRotation = m_OriginalRotation;
@@ -68,7 +68,7 @@ namespace VRStandardAssets.Utils
         public void SetPosition (RaycastHit hit)
         {
             m_ReticleTransform.position = hit.point;
-            m_ReticleTransform.localScale = m_OriginalScale * hit.distance;
+            //m_ReticleTransform.localScale = m_OriginalScale * hit.distance;
             
             // If the reticle should use the normal of what has been hit...
             if (m_UseNormal)
