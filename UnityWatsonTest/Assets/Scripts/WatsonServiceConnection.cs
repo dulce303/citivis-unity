@@ -53,6 +53,7 @@ public class WatsonServiceConnection : MonoBehaviour
     // text fields that get the values from speech->text and toneAnalysis
     public Text ResultsField;
     public Text EmotionText;
+    public Text AnalyticsText;
 
     // value above which we do something with the linked objects
     public float emotion_threshold;
@@ -230,7 +231,7 @@ public class WatsonServiceConnection : MonoBehaviour
     {
         Log.Debug("ExampleToneAnalyzer.OnGetToneAnalyze()", "{0}", customData["json"].ToString());
 
-        ResultsField.text = (customData["json"].ToString());  // works but long and cannot read
+        //AnalyticsText.text = (customData["json"].ToString());  // works but long and cannot read
 
         // Log Analysis Repsonse
         Log.Debug("$$$$$ TONE LOG 0 ANGER", "{0}", resp.document_tone.tone_categories[0].tones[0].score); // ANGER resp.document_tone.tone_categories [0].tones [0].score);
@@ -252,6 +253,7 @@ public class WatsonServiceConnection : MonoBehaviour
             handleUsingThreshold(resp);
         } else
         {
+            Debug.Log("Handle without threshold in SeviceConnector... pass direct to EH");
             EmotionH.HandleEmotion(EmotionHandler.EmotionType.Anger,    resp.document_tone.tone_categories[0].tones[0].score);
             EmotionH.HandleEmotion(EmotionHandler.EmotionType.Disgust,  resp.document_tone.tone_categories[0].tones[1].score);
             EmotionH.HandleEmotion(EmotionHandler.EmotionType.Fear,     resp.document_tone.tone_categories[0].tones[2].score);
@@ -274,13 +276,14 @@ public class WatsonServiceConnection : MonoBehaviour
         RAW = Regex.Replace(RAW, "score", " ");
         RAW = Regex.Replace(RAW, @"[{\\},:]", "");
         RAW = Regex.Replace(RAW, "\"", "");
-        ResultsField.text = RAW;
+        AnalyticsText.text = RAW;
 
         _analyzeToneTested = true;
     }
 
     private void handleUsingThreshold(ToneAnalyzerResponse resp)
     {
+        Debug.Log("HandleUsingThreshold");
          if (resp.document_tone.tone_categories[0].tones[0].score > emotion_threshold)
         {
             if (EmotionText != null)
@@ -357,22 +360,26 @@ public class WatsonServiceConnection : MonoBehaviour
             foreach (var res in result.results)
             {
                 // Commands
-                /* at present we dont recognize any Commands, so this section is commented out
-                and decimated the code, so if you want it back read Ryan's Example 4 Robot
+                // at present we dont recognize any Commands, so this section is commented out
+                //and decimated the code, so if you want it back read Ryan's Example 4 Robot
                 foreach (var alt in res.alternatives)
                 {
                     string text = string.Format("{0} ({1}, {2:0.00})\n", alt.transcript, res.final ? "Final" : "Interim", alt.confidence);
                     Log.Debug("ExampleStreaming.OnRecognize()", text);
                     ResultsField.text = text;
 
+                    string GHI = alt.transcript;
+                    if (!_toneAnalyzer.GetToneAnalyze(OnGetToneAnalyze, OnFail, GHI))
+                        Log.Debug("ExampleToneAnalyzer.Examples()", "Failed to analyze!");
+                    Log.Debug("ExampleToneAnalyzer.Examples()", "NESTED TONE ZONE branch complete.");
+
                    // ENTERING THE TONE ZONE - when the utterance contains this word
                     if (alt.transcript.Contains("reset"))
                     {
-                        ResetAction();
+                        //ResetAction();
                     }
 
                 }
-                */
 
                 // Log Keywords
                 if (res.keywords_result != null && res.keywords_result.keyword != null)
@@ -380,7 +387,7 @@ public class WatsonServiceConnection : MonoBehaviour
                     foreach (var keyword in res.keywords_result.keyword)
                     {
                         Log.Debug("ExampleStreaming.OnRecognize()", "keyword: {0}, confidence: {1}, start time: {2}, end time: {3}", keyword.normalized_text, keyword.confidence, keyword.start_time, keyword.end_time);
-                        //ResultsField.text = "tone analyzed! 222";
+                        ResultsField.text = "tone analyzed! 222";
                     }
                 }
 

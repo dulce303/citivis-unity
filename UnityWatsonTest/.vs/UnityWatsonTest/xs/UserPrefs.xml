@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{6A5C2435-F37A-9635-0298-3DDB1D8DA51A}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WatsonServiceConnection.cs">
     <Files>
-      <File FileName="Assets/Scripts/AvatarEmotion.cs" Line="107" Column="1" />
-      <File FileName="Assets/Scripts/WatsonServiceConnection.cs" Line="60" Column="29" />
-      <File FileName="Assets/Scripts/EmotionHandler.cs" Line="117" Column="1" />
+      <File FileName="Assets/Scripts/EmotionHandler.cs" Line="118" Column="9" />
+      <File FileName="Assets/Scripts/WatsonServiceConnection.cs" Line="280" Column="22" />
+      <File FileName="Assets/Watson/Examples/ServiceExamples/Scripts/ExampleStreaming.cs" Line="168" Column="23" />
+      <File FileName="Assets/Watson/Scripts/Debug/DebugReactor.cs" Line="60" Column="1" />
+      <File FileName="../../../ibm_watson_unity-master/ExampleStreaming4RobotEmotion.cs" Line="472" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -113,4 +113,8 @@ public class EmotionHandler : MonoBehaviour
                 break;
         }
     }
+
+    void reactWithScale(GameObject gameObject){
+        
+    }
 }
