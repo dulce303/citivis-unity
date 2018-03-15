@@ -12,9 +12,11 @@ The 360 story, data, questions and information are designed to address key issue
 
 The 360 Video Story in 3 Parts can be found at YouTube, including:
 
-LAHSA Context Video
-LISA'S Story
-REFRESH Spot
+LAHSA Context Video: https://www.youtube.com/watch?v=OxMmZ_HWLOc
+
+LISA'S Story   https://www.youtube.com/watch?v=H3CsxlMKnCA
+
+REFRESH Spot  https://www.youtube.com/watch?v=uFxp7sRWdls
 
 GOALS: As viewers interact with the videos in the City of LA build, data sets from the local agencies (LAHSA and LA City's Open Data Hub) can be layered into the interface to begin to match need areas, goals of citizens and local problem areas.
 
